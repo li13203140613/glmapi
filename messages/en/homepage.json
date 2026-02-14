@@ -1,0 +1,162 @@
+{
+  "hero": {
+    "title": "GLM API Proxy Service",
+    "subtitle": "Official Price at 40% - Stable & Reliable",
+    "description": "Access the full suite of Zhipu AI capabilities - GLM-4.7 text generation, GLM-4V multimodal understanding, CogView image generation, CogVideoX video generation, GLM-4-Voice, and more - at just 40% of {pricingLink}. Stable, fast, and fully compatible with all endpoints.",
+    "pricingLinkText": "official pricing",
+    "emailHint": "Leave your email, we'll contact you within 72 hours"
+  },
+  "features": {
+    "sectionTitle": "Why Choose Our GLM API Service",
+    "items": [
+      {
+        "icon": "money",
+        "title": "40% of Official Price",
+        "description": "GLM API pricing at 40% of official rates. Save 60% on every API call while maintaining full Zhipu AI capabilities."
+      },
+      {
+        "icon": "rocket",
+        "title": "Stable & Reliable",
+        "description": "High availability, low latency, 24/7 uptime. Your GLM API applications run without worry."
+      },
+      {
+        "icon": "plug",
+        "title": "100% Compatible",
+        "description": "Fully compatible with all official GLM API endpoints. No code changes needed - just swap your API key and go."
+      }
+    ]
+  },
+  "capabilities": {
+    "sectionTitle": "Full Zhipu AI Capabilities",
+    "subtitle": "One GLM API key unlocks every AI service",
+    "items": [
+      {
+        "icon": "chat",
+        "title": "Text Generation",
+        "subtitle": "GLM-4.7 Chat",
+        "description": "Powerful GLM-4.7 conversational model with long context, multi-turn dialogue, and function calling support",
+        "href": "/docs/text"
+      },
+      {
+        "icon": "eye",
+        "title": "Multimodal Understanding",
+        "subtitle": "GLM-4V Vision",
+        "description": "GLM-4V visual language model supporting image understanding, OCR, and visual QA",
+        "href": "/docs/vision"
+      },
+      {
+        "icon": "image",
+        "title": "Image Generation",
+        "subtitle": "CogView",
+        "description": "CogView text-to-image model with high-quality image generation and multiple styles",
+        "href": "/docs/image"
+      },
+      {
+        "icon": "video",
+        "title": "Video Generation",
+        "subtitle": "CogVideoX",
+        "description": "CogVideoX video generation model creating high-quality videos from text or images",
+        "href": "/docs/video"
+      },
+      {
+        "icon": "microphone",
+        "title": "Voice Model",
+        "subtitle": "GLM-4-Voice",
+        "description": "GLM-4-Voice end-to-end voice model supporting voice dialogue and speech understanding",
+        "href": "/docs/voice"
+      },
+      {
+        "icon": "search",
+        "title": "Web Search & Tools",
+        "subtitle": "Web Search & Tools",
+        "description": "Built-in web search, code interpreter, and other tools to enhance AI capabilities",
+        "href": "/docs/tools"
+      }
+    ]
+  },
+  "pricingPreview": {
+    "title": "GLM API Pricing - 40% of Official",
+    "subtitle": "All GLM API pricing at 40% of official rates",
+    "viewFull": "View Full GLM API Pricing",
+    "items": [
+      {
+        "model": "GLM-4-Air",
+        "type": "Text Generation",
+        "officialPrice": "\u00a50.001/1K tokens",
+        "ourPrice": "\u00a50.0004/1K tokens"
+      },
+      {
+        "model": "GLM-4V-Plus",
+        "type": "Multimodal Vision",
+        "officialPrice": "\u00a50.01/1K tokens",
+        "ourPrice": "\u00a50.004/1K tokens"
+      },
+      {
+        "model": "CogVideoX",
+        "type": "Video Generation",
+        "officialPrice": "\u00a51.00/video",
+        "ourPrice": "\u00a50.40/video"
+      }
+    ]
+  },
+  "resources": {
+    "sectionTitle": "Resources & Guides",
+    "items": [
+      {
+        "title": "GLM 4.7 API Complete Guide",
+        "description": "Learn about GLM-4.7 features, capabilities, and integration guide.",
+        "href": "/glm-4-7-api"
+      },
+      {
+        "title": "GLM Free API",
+        "description": "Discover free GLM models and the most affordable access options.",
+        "href": "/glm-free-api"
+      },
+      {
+        "title": "GLM API Key Guide",
+        "description": "Step-by-step instructions to get and configure your GLM API key.",
+        "href": "/glm-api-key"
+      },
+      {
+        "title": "GLM 4.7 Flash API",
+        "description": "Fast, free GLM model for high-volume and budget-friendly applications.",
+        "href": "/glm-4-7-flash-api"
+      },
+      {
+        "title": "GLM Coding Plan",
+        "description": "Compare GLM Coding Plan subscription vs pay-as-you-go API pricing.",
+        "href": "/glm-coding-plan"
+      },
+      {
+        "title": "GLM API Pricing",
+        "description": "Complete pricing table across all GLM models and capabilities.",
+        "href": "/pricing"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is GLM API?",
+        "a": "GLM API is the official API service provided by Zhipu AI for accessing their suite of AI models including GLM-4.7 for text generation, GLM-4V for multimodal understanding, CogView for image generation, and CogVideoX for video generation. Our proxy service offers full access at 40% of the official pricing."
+      },
+      {
+        "q": "How much does GLM API cost?",
+        "a": "Our GLM API pricing is 40% of the official price. For example, GLM-4-Air costs \u00a50.0004/thousand tokens (official price \u00a50.001), and GLM-4V-Plus costs \u00a50.004/thousand tokens (official price \u00a50.01). See the full pricing table for details."
+      },
+      {
+        "q": "How to get a GLM API key?",
+        "a": "To get a GLM API key through our proxy service, simply submit your email address on our website. We will contact you within 72 hours to set up your API access with discounted pricing."
+      },
+      {
+        "q": "Is GLM API compatible with official endpoints?",
+        "a": "Yes, our GLM API proxy is fully compatible with the official Zhipu AI API endpoints. You can use it as a drop-in replacement without modifying your code."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "Leave your email and we'll contact you within 72 hours to set up your GLM API access at 40% of official pricing."
+  }
+}

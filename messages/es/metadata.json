@@ -1,0 +1,107 @@
+{
+  "homepage": {
+    "title": "GLM API Proxy - 40% del Precio Oficial | GLM API Proxy",
+    "titleTemplate": "%s | GLM API Proxy",
+    "description": "Servicio proxy oficial de GLM API a solo el 40% del precio oficial. Ofrecemos generación de texto, visión multimodal, generación de video, generación de imágenes, modelo de voz, embedding y búsqueda web: todas las capacidades de Zhipu AI. Estable, confiable y totalmente compatible con los endpoints oficiales de GLM.",
+    "keywords": [
+      "GLM API",
+      "GLM API Proxy",
+      "Servicio Proxy GLM API",
+      "Zhipu AI",
+      "Zhipu AI API",
+      "GLM-4 API",
+      "GLM-4.7 API",
+      "GLM-4V API",
+      "CogView API",
+      "CogVideoX API",
+      "GLM-4-Voice",
+      "AI API",
+      "API de IA Económica",
+      "Descuento GLM API"
+    ]
+  },
+  "pricing": {
+    "title": "Precios - GLM API Proxy",
+    "description": "Tabla de precios del servicio proxy de GLM API al 40% del precio oficial. Precios transparentes para generación de texto, visión multimodal, generación de video, generación de imágenes, modelo de voz y más capacidades de IA de Zhipu AI.",
+    "keywords": [
+      "Precios GLM API",
+      "Costo GLM API",
+      "Descuento GLM API",
+      "Precios Zhipu AI",
+      "Precios GLM-4",
+      "Precios CogVideoX",
+      "Precios CogView",
+      "GLM API Económica"
+    ]
+  },
+  "docs": {
+    "title": "Descripción General de la Documentación API - GLM API Proxy",
+    "description": "Descripción general de la documentación del servicio proxy de GLM API, que proporciona múltiples capacidades de IA, incluyendo generación de texto, visión multimodal, generación de imágenes, generación de video, modelo de voz, embedding y búsqueda web.",
+    "keywords": [
+      "Documentación GLM API",
+      "Docs GLM API",
+      "Referencia GLM API",
+      "Guía GLM API"
+    ]
+  },
+  "docsText": {
+    "title": "Generación de Texto (Chat Completions) - GLM API Docs",
+    "description": "Interfaz de chat completions del modelo de lenguaje grande de la serie GLM-4. Compatible con el formato OpenAI Chat Completions API, soporta streaming y llamadas a funciones.",
+    "keywords": ["GLM Chat API", "GLM Generación de Texto", "GLM Chat Completions", "GLM-4 LLM API"]
+  },
+  "docsVision": {
+    "title": "Comprensión Multimodal (Visión) - GLM API Docs",
+    "description": "Modelo multimodal de la serie GLM-4V que soporta comprensión de imágenes y respuesta visual a preguntas.",
+    "keywords": ["GLM Vision API", "GLM-4V API", "GLM API Multimodal", "GLM Comprensión de Imágenes"]
+  },
+  "docsImage": {
+    "title": "Generación de Imágenes (CogView) - GLM API Docs",
+    "description": "Modelo de generación de imágenes con IA de la serie CogView. Genera imágenes de alta calidad a partir de descripciones de texto.",
+    "keywords": ["CogView API", "GLM Generación de Imágenes", "CogView Texto a Imagen", "API de Generación de Imágenes con IA"]
+  },
+  "docsVideo": {
+    "title": "Generación de Video (CogVideoX) - GLM API Docs",
+    "description": "Modelo de generación de video con IA CogVideoX. Genera videos de alta calidad a partir de indicaciones de texto.",
+    "keywords": ["CogVideoX API", "GLM Generación de Video", "API Texto a Video", "CogVideoX Video"]
+  },
+  "docsVoice": {
+    "title": "Modelo de Voz (GLM-4-Voice) - GLM API Docs",
+    "description": "Modelo de diálogo de voz de extremo a extremo GLM-4-Voice que soporta texto a voz.",
+    "keywords": ["GLM-4-Voice API", "GLM Voice API", "GLM TTS", "Zhipu AI Voz"]
+  },
+  "docsEmbedding": {
+    "title": "Embedding (Embedding-3) - GLM API Docs",
+    "description": "Interfaz de embedding de texto para búsqueda semántica y cálculo de similitud de texto.",
+    "keywords": ["GLM Embedding API", "Embedding-3 API", "API de Embedding de Texto", "GLM Vector API"]
+  },
+  "docsTools": {
+    "title": "Búsqueda Web (Tools) - GLM API Docs",
+    "description": "Capacidades integradas de búsqueda web y llamadas a herramientas para la recuperación de información en tiempo real.",
+    "keywords": ["GLM Web Search API", "GLM Tools API", "GLM Function Calling", "GLM Search"]
+  },
+  "glm47Api": {
+    "title": "GLM 4.7 API - Guía Completa de Integración de GLM-4.7 API",
+    "description": "Guía completa de GLM 4.7 API - Aprenda a integrar GLM-4.7 API con ventana de contexto de 128K, razonamiento avanzado y capacidades de programación. Obtenga un 40% de descuento sobre el precio oficial.",
+    "keywords": ["GLM 4.7 API", "GLM-4.7 API", "GLM 4.7 API key", "Integración GLM API", "Zhipu AI API"]
+  },
+  "glmFreeApi": {
+    "title": "GLM API Gratuita - Cómo Obtener Acceso Gratuito a GLM 4.7 API",
+    "description": "Guía completa de acceso gratuito a GLM API. Descubra qué modelos GLM son gratuitos, cómo obtener acceso gratuito a GLM API y alternativas económicas con GLM-4-Flash y nuestro 40% de descuento.",
+    "keywords": ["GLM API gratuita", "GLM 4.7 API gratuita", "GLM API gratis", "GLM API free", "GLM-4-Flash gratuita"]
+  },
+  "glmApiKey": {
+    "title": "GLM API Key - Cómo Obtener y Usar Tu GLM API Key",
+    "description": "Guía paso a paso para obtener y usar tu GLM API key. Aprende cómo obtener, configurar y proteger tu GLM 4.7 API key para desarrollo.",
+    "keywords": ["GLM API key", "GLM 4.7 API key", "Zhipu AI API key", "GLM-4 API key", "cómo obtener GLM API key"]
+  },
+  "glm47FlashApi": {
+    "title": "GLM 4.7 Flash API - Modelo GLM Rápido y Gratuito",
+    "description": "Guía completa de GLM-4.7-Flash API. Conozca las características del modelo GLM Flash gratuito y rápido, su rendimiento y cómo usarlo en aplicaciones de producción.",
+    "keywords": ["GLM 4.7 Flash API", "GLM-4-Flash API", "GLM Flash gratuito", "GLM API rápida", "GLM-4-FlashX"]
+  },
+  "glmCodingPlan": {
+    "title": "GLM Coding Plan - Planes de Suscripción y Comparación de API",
+    "description": "Compare las opciones de suscripción de GLM Coding Plan con precios de API de pago por uso. Encuentre el mejor plan para sus necesidades de desarrollo con un 40% de descuento sobre las tarifas oficiales.",
+    "keywords": ["GLM Coding Plan", "Suscripción GLM", "Plan GLM API", "Zhipu AI plan de desarrollo", "Plan de precios GLM"]
+  }
+}

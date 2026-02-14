@@ -1,0 +1,59 @@
+{
+  "overview": {
+    "title": "GLM APIドキュメント",
+    "description": "GLM（Zhipu AI）APIプロキシサービスへようこそ。このドキュメントでは、リクエストパラメータ、レスポンス形式、コード例を含む、利用可能な全APIエンドポイントの詳細な手順を提供します。"
+  },
+  "baseUrl": {
+    "title": "ベースURL",
+    "url": "https://your-proxy-domain.com/v1",
+    "description": "全てのAPIリクエストは、上記のベースURLに続けて特定のエンドポイントパスを指定して送信してください。"
+  },
+  "auth": {
+    "title": "認証",
+    "description": "全てのAPIリクエストには、リクエストヘッダーに有効なBearer Tokenが必要です：",
+    "code": "Authorization: Bearer YOUR_API_KEY",
+    "warning": "APIキーは安全に管理し、クライアントサイドのコードに公開しないでください。"
+  },
+  "sections": {
+    "title": "APIモジュール",
+    "text": {
+      "title": "テキスト生成",
+      "titleEn": "Chat Completions",
+      "description": "GLM-4シリーズ大規模言語モデルの会話インターフェース、OpenAI形式と完全互換"
+    },
+    "vision": {
+      "title": "マルチモーダル理解",
+      "titleEn": "Vision",
+      "description": "GLM-4Vシリーズ、画像理解と視覚的質問応答をサポート"
+    },
+    "image": {
+      "title": "画像生成",
+      "titleEn": "CogView",
+      "description": "CogViewシリーズAI画像生成モデル"
+    },
+    "video": {
+      "title": "動画生成",
+      "titleEn": "CogVideoX",
+      "description": "CogVideoX AIテキストプロンプトからの動画生成"
+    },
+    "voice": {
+      "title": "音声モデル",
+      "titleEn": "GLM-4-Voice",
+      "description": "GLM-4-Voiceエンドツーエンド音声対話モデル"
+    },
+    "embedding": {
+      "title": "エンベディング",
+      "titleEn": "Embedding",
+      "description": "セマンティック検索と類似度計算のためのテキストエンベディングインターフェース"
+    },
+    "tools": {
+      "title": "ウェブ検索",
+      "titleEn": "Web Search & Tools",
+      "description": "内蔵のウェブ検索およびツール呼び出し機能"
+    }
+  },
+  "help": {
+    "title": "お困りですか？",
+    "description": "問題が発生した場合やテクニカルサポートが必要な場合は、ドキュメントに記載されている連絡先からお問い合わせください。"
+  }
+}

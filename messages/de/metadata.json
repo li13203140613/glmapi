@@ -1,0 +1,107 @@
+{
+  "homepage": {
+    "title": "GLM API Proxy - 40% des offiziellen Preises | GLM API Proxy",
+    "titleTemplate": "%s | GLM API Proxy",
+    "description": "GLM API offizieller Proxy-Dienst zu nur 40% des offiziellen Preises. Bietet Textgenerierung, multimodale Bilderkennung, Videogenerierung, Bildgenerierung, Sprachmodell, Embedding und Websuche - alle Zhipu AI Funktionen. Stabil, zuverlässig und vollständig kompatibel mit offiziellen GLM-Endpunkten.",
+    "keywords": [
+      "GLM API",
+      "GLM API Proxy",
+      "GLM API Proxy-Dienst",
+      "Zhipu AI",
+      "Zhipu AI API",
+      "GLM-4 API",
+      "GLM-4.7 API",
+      "GLM-4V API",
+      "CogView API",
+      "CogVideoX API",
+      "GLM-4-Voice",
+      "KI API",
+      "Günstiges KI API",
+      "GLM API Rabatt"
+    ]
+  },
+  "pricing": {
+    "title": "Preise - GLM API Proxy",
+    "description": "GLM API Proxy-Dienst Preistabelle zu 40% des offiziellen Preises. Transparente Preise für Textgenerierung, multimodale Bilderkennung, Videogenerierung, Bildgenerierung, Sprachmodell und weitere KI-Funktionen von Zhipu AI.",
+    "keywords": [
+      "GLM API Preise",
+      "GLM API Kosten",
+      "GLM API Rabatt",
+      "Zhipu AI Preise",
+      "GLM-4 Preise",
+      "CogVideoX Preise",
+      "CogView Preise",
+      "Günstiges GLM API"
+    ]
+  },
+  "docs": {
+    "title": "API-Dokumentationsübersicht - GLM API Proxy",
+    "description": "GLM API Proxy-Dienst Dokumentationsübersicht mit mehreren KI-Funktionen einschließlich Textgenerierung, multimodaler Bilderkennung, Bildgenerierung, Videogenerierung, Sprachmodell, Embedding und Websuche.",
+    "keywords": [
+      "GLM API Dokumentation",
+      "GLM API Docs",
+      "GLM API Referenz",
+      "GLM API Anleitung"
+    ]
+  },
+  "docsText": {
+    "title": "Textgenerierung (Chat Completions) - GLM API Docs",
+    "description": "GLM-4 Serien-Sprachmodell Chat-Completion-Schnittstelle. Kompatibel mit dem OpenAI Chat Completions API-Format, unterstützt Streaming und Function Calling.",
+    "keywords": ["GLM Chat API", "GLM Textgenerierung", "GLM Chat Completions", "GLM-4 LLM API"]
+  },
+  "docsVision": {
+    "title": "Multimodale Bilderkennung (Vision) - GLM API Docs",
+    "description": "GLM-4V Serien-Multimodalmodell mit Unterstützung für Bildverständnis und visuelle Fragebeantwortung.",
+    "keywords": ["GLM Vision API", "GLM-4V API", "GLM Multimodal API", "GLM Bildverständnis"]
+  },
+  "docsImage": {
+    "title": "Bildgenerierung (CogView) - GLM API Docs",
+    "description": "CogView Serien-KI-Bildgenerierungsmodell. Erstellen Sie hochwertige Bilder aus Textbeschreibungen.",
+    "keywords": ["CogView API", "GLM Bildgenerierung", "CogView Text-zu-Bild", "KI Bildgenerierung API"]
+  },
+  "docsVideo": {
+    "title": "Videogenerierung (CogVideoX) - GLM API Docs",
+    "description": "CogVideoX KI-Videogenerierungsmodell. Erstellen Sie hochwertige Videos aus Textbeschreibungen.",
+    "keywords": ["CogVideoX API", "GLM Videogenerierung", "Text-zu-Video API", "CogVideoX Video"]
+  },
+  "docsVoice": {
+    "title": "Sprachmodell (GLM-4-Voice) - GLM API Docs",
+    "description": "GLM-4-Voice End-to-End-Sprachdialogmodell mit Unterstützung für Text-zu-Sprache.",
+    "keywords": ["GLM-4-Voice API", "GLM Sprach-API", "GLM TTS", "Zhipu AI Sprache"]
+  },
+  "docsEmbedding": {
+    "title": "Embedding (Embedding-3) - GLM API Docs",
+    "description": "Text-Embedding-Schnittstelle für semantische Suche und Berechnung von Textähnlichkeiten.",
+    "keywords": ["GLM Embedding API", "Embedding-3 API", "Text Embedding API", "GLM Vektor API"]
+  },
+  "docsTools": {
+    "title": "Websuche (Tools) - GLM API Docs",
+    "description": "Integrierte Websuche und Tool-Calling-Funktionen für den Echtzeit-Informationsabruf.",
+    "keywords": ["GLM Websuche API", "GLM Tools API", "GLM Function Calling", "GLM Suche"]
+  },
+  "glm47Api": {
+    "title": "GLM 4.7 API - Vollständige Anleitung zur GLM-4.7 API-Integration",
+    "description": "Umfassende Anleitung zur GLM 4.7 API - Erfahren Sie, wie Sie GLM-4.7 API mit 128K-Kontextfenster, erweitertem Reasoning und Coding-Fähigkeiten integrieren. Erhalten Sie 40% Rabatt auf den offiziellen Preis.",
+    "keywords": ["GLM 4.7 API", "GLM-4.7 API", "GLM 4.7 API-Schlüssel", "GLM API Integration", "Zhipu AI API"]
+  },
+  "glmFreeApi": {
+    "title": "GLM Kostenlose API - So erhalten Sie kostenlosen Zugang zur GLM 4.7 API",
+    "description": "Vollständige Anleitung für kostenlosen GLM API-Zugang. Erfahren Sie, welche GLM-Modelle kostenlos sind, wie Sie kostenlosen GLM API-Zugang erhalten und günstige Alternativen mit GLM-4-Flash und unserem 40%-Rabatt.",
+    "keywords": ["GLM kostenlose API", "GLM 4.7 kostenlose API", "GLM API kostenlos", "kostenlose GLM API", "GLM-4-Flash kostenlos"]
+  },
+  "glmApiKey": {
+    "title": "GLM API-Schlüssel - So erhalten und verwenden Sie Ihren GLM API-Schlüssel",
+    "description": "Schritt-für-Schritt-Anleitung zum Erhalt und zur Verwendung Ihres GLM API-Schlüssels. Erfahren Sie, wie Sie Ihren GLM 4.7 API-Schlüssel erhalten, konfigurieren und sichern.",
+    "keywords": ["GLM API-Schlüssel", "GLM 4.7 API-Schlüssel", "Zhipu AI API-Schlüssel", "GLM-4 API-Schlüssel", "GLM API-Schlüssel erhalten"]
+  },
+  "glm47FlashApi": {
+    "title": "GLM 4.7 Flash API - Schnelles & Kostenloses GLM-Modell",
+    "description": "Vollständige Anleitung zur GLM-4.7-Flash API. Erfahren Sie alles über das kostenlose, schnelle GLM Flash-Modell, Funktionen, Leistung und Produktionseinsatz.",
+    "keywords": ["GLM 4.7 Flash API", "GLM-4-Flash API", "GLM Flash kostenlos", "schnelle GLM API", "GLM-4-FlashX"]
+  },
+  "glmCodingPlan": {
+    "title": "GLM Coding-Tarif - Abo-Pläne & API-Vergleich",
+    "description": "Vergleichen Sie GLM Coding-Tarif Abo-Optionen mit nutzungsbasierter API-Abrechnung. Finden Sie den besten Plan für Ihre Entwicklungsanforderungen zu 40% des offiziellen Preises.",
+    "keywords": ["GLM Coding-Tarif", "GLM Abo", "GLM API-Tarif", "Zhipu AI Coding-Tarif", "GLM Preisplan"]
+  }
+}

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 
 interface CodeBlockProps {
   code: string
@@ -10,6 +11,7 @@ interface CodeBlockProps {
 
 export default function CodeBlock({ code, language = "json", title }: CodeBlockProps) {
   const [copied, setCopied] = useState(false)
+  const t = useTranslations("codeBlock")
 
   function handleCopy() {
     navigator.clipboard.writeText(code)
@@ -26,7 +28,7 @@ export default function CodeBlock({ code, language = "json", title }: CodeBlockP
             onClick={handleCopy}
             className="text-xs text-zinc-500 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
           >
-            {copied ? "已复制!" : "复制"}
+            {copied ? t("copied") : t("copy")}
           </button>
         </div>
       )}
@@ -36,7 +38,7 @@ export default function CodeBlock({ code, language = "json", title }: CodeBlockP
             onClick={handleCopy}
             className="text-xs text-zinc-500 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
           >
-            {copied ? "已复制!" : "复制"}
+            {copied ? t("copied") : t("copy")}
           </button>
         </div>
       )}

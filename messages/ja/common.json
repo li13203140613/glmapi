@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "pricing": "料金",
+    "docs": "APIドキュメント",
+    "codingPlan": "コーディングプラン",
+    "getStarted": "始める"
+  },
+  "footer": {
+    "description": "GLM APIを公式価格の40%で提供。Zhipu AIの安定した信頼性の高いAPIプロキシサービス。",
+    "product": "製品",
+    "apiCapabilities": "API機能",
+    "guides": "人気ガイド",
+    "pricing": "料金",
+    "docs": "APIドキュメント",
+    "textGeneration": "テキスト生成",
+    "visionModel": "ビジョンモデル",
+    "videoGeneration": "動画生成",
+    "imageGeneration": "画像生成",
+    "voiceModel": "音声モデル",
+    "embedding": "エンベディング",
+    "webSearch": "ウェブ検索",
+    "copyright": "GLM APIプロキシ。All rights reserved.",
+    "tagline": "GLM APIプロキシ | Zhipu AI API | GLM-4 API | お手頃なGLM API"
+  },
+  "emailForm": {
+    "placeholder": "メールアドレスを入力してください",
+    "submit": "始める",
+    "submitting": "送信中...",
+    "success": "送信が完了しました！72時間以内にご連絡いたします。",
+    "error": "送信に失敗しました。後ほど再度お試しください。",
+    "networkError": "ネットワークエラーが発生しました。後ほど再度お試しください。"
+  },
+  "codeBlock": {
+    "copy": "コピー",
+    "copied": "コピーしました！"
+  },
+  "pricingTable": {
+    "model": "モデル",
+    "officialPrice": "公式価格",
+    "ourPrice": "当社価格",
+    "save": "割引",
+    "savePercent": "{percent}%お得"
+  },
+  "docsSidebar": {
+    "overview": "API概要",
+    "apiDocs": "APIドキュメント",
+    "text": "テキスト生成",
+    "vision": "ビジョンモデル",
+    "image": "画像生成",
+    "video": "動画生成",
+    "voice": "音声モデル",
+    "embedding": "エンベディング",
+    "tools": "ウェブ検索"
+  },
+  "docPage": {
+    "endpoints": "APIエンドポイント",
+    "parameters": "リクエストパラメータ",
+    "paramName": "パラメータ",
+    "paramType": "型",
+    "required": "必須",
+    "optional": "任意",
+    "description": "説明",
+    "requestExample": "リクエスト例",
+    "responseExample": "レスポンス例",
+    "codeExamples": "コード例"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "de": "Deutsch",
+    "es": "Español"
+  }
+}

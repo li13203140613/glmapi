@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "pricing": "요금제",
+    "docs": "API 문서",
+    "codingPlan": "코딩 플랜",
+    "getStarted": "시작하기"
+  },
+  "footer": {
+    "description": "공식 가격의 40%로 제공되는 GLM API, Zhipu AI를 위한 안정적이고 신뢰할 수 있는 API 프록시 서비스.",
+    "product": "제품",
+    "apiCapabilities": "API 기능",
+    "guides": "인기 가이드",
+    "pricing": "요금제",
+    "docs": "API 문서",
+    "textGeneration": "텍스트 생성",
+    "visionModel": "비전 모델",
+    "videoGeneration": "비디오 생성",
+    "imageGeneration": "이미지 생성",
+    "voiceModel": "음성 모델",
+    "embedding": "임베딩",
+    "webSearch": "웹 검색",
+    "copyright": "GLM API Proxy. All rights reserved.",
+    "tagline": "GLM API Proxy | Zhipu AI API | GLM-4 API | 합리적인 GLM API"
+  },
+  "emailForm": {
+    "placeholder": "이메일 주소를 입력하세요",
+    "submit": "시작하기",
+    "submitting": "제출 중...",
+    "success": "성공적으로 제출되었습니다! 72시간 이내에 연락드리겠습니다.",
+    "error": "제출에 실패했습니다. 나중에 다시 시도해 주세요.",
+    "networkError": "네트워크 오류입니다. 나중에 다시 시도해 주세요."
+  },
+  "codeBlock": {
+    "copy": "복사",
+    "copied": "복사됨!"
+  },
+  "pricingTable": {
+    "model": "모델",
+    "officialPrice": "공식 가격",
+    "ourPrice": "우리 가격",
+    "save": "절약",
+    "savePercent": "{percent}% 절약"
+  },
+  "docsSidebar": {
+    "overview": "API 개요",
+    "apiDocs": "API 문서",
+    "text": "텍스트 생성",
+    "vision": "비전 모델",
+    "image": "이미지 생성",
+    "video": "비디오 생성",
+    "voice": "음성 모델",
+    "embedding": "임베딩",
+    "tools": "웹 검색"
+  },
+  "docPage": {
+    "endpoints": "API 엔드포인트",
+    "parameters": "요청 파라미터",
+    "paramName": "파라미터",
+    "paramType": "유형",
+    "required": "필수",
+    "optional": "선택",
+    "description": "설명",
+    "requestExample": "요청 예시",
+    "responseExample": "응답 예시",
+    "codeExamples": "코드 예시"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "de": "Deutsch",
+    "es": "Español"
+  }
+}

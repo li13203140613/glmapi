@@ -1,0 +1,162 @@
+{
+  "hero": {
+    "title": "GLM APIプロキシサービス",
+    "subtitle": "公式価格の40% - 安定・信頼",
+    "description": "Zhipu AIの全機能にアクセス - GLM-4.7テキスト生成、GLM-4Vマルチモーダル理解、CogView画像生成、CogVideoX動画生成、GLM-4-Voiceなど - {pricingLink}のわずか40%で。安定・高速、全エンドポイント完全互換。",
+    "pricingLinkText": "公式料金",
+    "emailHint": "メールアドレスをお知らせください。72時間以内にご連絡いたします"
+  },
+  "features": {
+    "sectionTitle": "当社GLM APIサービスが選ばれる理由",
+    "items": [
+      {
+        "icon": "money",
+        "title": "公式価格の40%",
+        "description": "GLM API料金を公式価格の40%で提供。Zhipu AIの全機能を維持しながら、全APIコールで60%節約。"
+      },
+      {
+        "icon": "rocket",
+        "title": "安定・信頼",
+        "description": "高可用性、低レイテンシ、24時間365日稼働。GLM APIアプリケーションを安心してご利用いただけます。"
+      },
+      {
+        "icon": "plug",
+        "title": "100%互換",
+        "description": "全ての公式GLM APIエンドポイントと完全互換。コード変更不要 - APIキーを差し替えるだけですぐに利用可能。"
+      }
+    ]
+  },
+  "capabilities": {
+    "sectionTitle": "Zhipu AIの全機能",
+    "subtitle": "1つのGLM APIキーで全AIサービスを利用可能",
+    "items": [
+      {
+        "icon": "chat",
+        "title": "テキスト生成",
+        "subtitle": "GLM-4.7 Chat",
+        "description": "長文コンテキスト、マルチターン対話、ファンクションコーリングをサポートする強力なGLM-4.7会話モデル",
+        "href": "/docs/text"
+      },
+      {
+        "icon": "eye",
+        "title": "マルチモーダル理解",
+        "subtitle": "GLM-4V Vision",
+        "description": "画像理解、OCR、視覚的質問応答をサポートするGLM-4Vビジュアル言語モデル",
+        "href": "/docs/vision"
+      },
+      {
+        "icon": "image",
+        "title": "画像生成",
+        "subtitle": "CogView",
+        "description": "高品質な画像生成と多様なスタイルに対応するCogViewテキストから画像モデル",
+        "href": "/docs/image"
+      },
+      {
+        "icon": "video",
+        "title": "動画生成",
+        "subtitle": "CogVideoX",
+        "description": "テキストまたは画像から高品質な動画を生成するCogVideoX動画生成モデル",
+        "href": "/docs/video"
+      },
+      {
+        "icon": "microphone",
+        "title": "音声モデル",
+        "subtitle": "GLM-4-Voice",
+        "description": "音声対話と音声理解をサポートするGLM-4-Voiceエンドツーエンド音声モデル",
+        "href": "/docs/voice"
+      },
+      {
+        "icon": "search",
+        "title": "ウェブ検索＆ツール",
+        "subtitle": "ウェブ検索＆ツール",
+        "description": "内蔵のウェブ検索、コードインタープリター、その他のツールでAI機能を拡張",
+        "href": "/docs/tools"
+      }
+    ]
+  },
+  "pricingPreview": {
+    "title": "GLM API料金 - 公式の40%",
+    "subtitle": "全GLM API料金が公式価格の40%",
+    "viewFull": "GLM API料金の全一覧を見る",
+    "items": [
+      {
+        "model": "GLM-4-Air",
+        "type": "テキスト生成",
+        "officialPrice": "¥0.001/1Kトークン",
+        "ourPrice": "¥0.0004/1Kトークン"
+      },
+      {
+        "model": "GLM-4V-Plus",
+        "type": "マルチモーダルビジョン",
+        "officialPrice": "¥0.01/1Kトークン",
+        "ourPrice": "¥0.004/1Kトークン"
+      },
+      {
+        "model": "CogVideoX",
+        "type": "動画生成",
+        "officialPrice": "¥1.00/動画",
+        "ourPrice": "¥0.40/動画"
+      }
+    ]
+  },
+  "resources": {
+    "sectionTitle": "リソース＆ガイド",
+    "items": [
+      {
+        "title": "GLM 4.7 API完全ガイド",
+        "description": "GLM-4.7の機能、性能、統合ガイドを解説。",
+        "href": "/glm-4-7-api"
+      },
+      {
+        "title": "GLM無料API",
+        "description": "無料GLMモデルと最もお手頃なアクセス方法をご紹介。",
+        "href": "/glm-free-api"
+      },
+      {
+        "title": "GLM APIキーガイド",
+        "description": "GLM APIキーの取得と設定のステップバイステップ手順。",
+        "href": "/glm-api-key"
+      },
+      {
+        "title": "GLM 4.7 Flash API",
+        "description": "大量処理やコスト重視のアプリケーション向けの高速・無料GLMモデル。",
+        "href": "/glm-4-7-flash-api"
+      },
+      {
+        "title": "GLMコーディングプラン",
+        "description": "GLMコーディングプランのサブスクリプションと従量制API料金を比較。",
+        "href": "/glm-coding-plan"
+      },
+      {
+        "title": "GLM API料金",
+        "description": "全GLMモデルと機能の料金一覧表。",
+        "href": "/pricing"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "よくある質問",
+    "items": [
+      {
+        "q": "GLM APIとは何ですか？",
+        "a": "GLM APIは、Zhipu AIが提供する公式APIサービスで、GLM-4.7テキスト生成、GLM-4Vマルチモーダル理解、CogView画像生成、CogVideoX動画生成などのAIモデルスイートにアクセスできます。当社のプロキシサービスでは、公式価格の40%で全機能をご利用いただけます。"
+      },
+      {
+        "q": "GLM APIの料金はいくらですか？",
+        "a": "当社のGLM API料金は公式価格の40%です。例えば、GLM-4-Airは¥0.0004/千トークン（公式価格¥0.001）、GLM-4V-Plusは¥0.004/千トークン（公式価格¥0.01）です。詳細は料金一覧表をご確認ください。"
+      },
+      {
+        "q": "GLM APIキーはどうやって取得できますか？",
+        "a": "当社のプロキシサービスでGLM APIキーを取得するには、ウェブサイトでメールアドレスを送信するだけです。72時間以内にご連絡し、割引料金でのAPIアクセスを設定いたします。"
+      },
+      {
+        "q": "GLM APIは公式エンドポイントと互換性がありますか？",
+        "a": "はい、当社のGLM APIプロキシはZhipu AIの公式APIエンドポイントと完全互換です。コードを変更せずにそのまま代替としてご利用いただけます。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "始める準備はできましたか？",
+    "description": "メールアドレスをお知らせください。72時間以内にご連絡し、公式価格の40%でGLM APIアクセスを設定いたします。"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "pricing": "Precios",
+    "docs": "Documentación API",
+    "codingPlan": "Plan de Desarrollo",
+    "getStarted": "Comenzar"
+  },
+  "footer": {
+    "description": "GLM API al 40% del precio oficial, servicio proxy de API estable y confiable para Zhipu AI.",
+    "product": "Producto",
+    "apiCapabilities": "Capacidades de API",
+    "guides": "Guías Populares",
+    "pricing": "Precios",
+    "docs": "Documentación API",
+    "textGeneration": "Generación de Texto",
+    "visionModel": "Modelo de Visión",
+    "videoGeneration": "Generación de Video",
+    "imageGeneration": "Generación de Imágenes",
+    "voiceModel": "Modelo de Voz",
+    "embedding": "Embedding",
+    "webSearch": "Búsqueda Web",
+    "copyright": "GLM API Proxy. Todos los derechos reservados.",
+    "tagline": "GLM API Proxy | Zhipu AI API | GLM-4 API | GLM API Económica"
+  },
+  "emailForm": {
+    "placeholder": "Ingrese su dirección de correo electrónico",
+    "submit": "Comenzar",
+    "submitting": "Enviando...",
+    "success": "¡Enviado con éxito! Nos pondremos en contacto con usted en un plazo de 72 horas.",
+    "error": "Error en el envío. Por favor, inténtelo de nuevo más tarde.",
+    "networkError": "Error de red. Por favor, inténtelo de nuevo más tarde."
+  },
+  "codeBlock": {
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  },
+  "pricingTable": {
+    "model": "Modelo",
+    "officialPrice": "Precio Oficial",
+    "ourPrice": "Nuestro Precio",
+    "save": "Ahorro",
+    "savePercent": "Ahorre {percent}%"
+  },
+  "docsSidebar": {
+    "overview": "Descripción General de la API",
+    "apiDocs": "Documentación de la API",
+    "text": "Generación de Texto",
+    "vision": "Modelo de Visión",
+    "image": "Generación de Imágenes",
+    "video": "Generación de Video",
+    "voice": "Modelo de Voz",
+    "embedding": "Embedding",
+    "tools": "Búsqueda Web"
+  },
+  "docPage": {
+    "endpoints": "Endpoints de la API",
+    "parameters": "Parámetros de Solicitud",
+    "paramName": "Parámetro",
+    "paramType": "Tipo",
+    "required": "Requerido",
+    "optional": "Opcional",
+    "description": "Descripción",
+    "requestExample": "Ejemplo de Solicitud",
+    "responseExample": "Ejemplo de Respuesta",
+    "codeExamples": "Ejemplos de Código"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "de": "Deutsch",
+    "es": "Español"
+  }
+}

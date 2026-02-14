@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "pricing": "价格",
+    "docs": "API 文档",
+    "codingPlan": "编程方案",
+    "getStarted": "开始使用"
+  },
+  "footer": {
+    "description": "GLM API 仅需官方价格的 40%，稳定可靠的智谱 AI API 代理服务。",
+    "product": "产品",
+    "apiCapabilities": "API 能力",
+    "guides": "热门指南",
+    "pricing": "价格",
+    "docs": "API 文档",
+    "textGeneration": "文本生成",
+    "visionModel": "视觉模型",
+    "videoGeneration": "视频生成",
+    "imageGeneration": "图像生成",
+    "voiceModel": "语音模型",
+    "embedding": "向量嵌入",
+    "webSearch": "联网搜索",
+    "copyright": "GLM API Proxy. 保留所有权利。",
+    "tagline": "GLM API 代理 | 智谱 AI API | GLM-4 API | 低价 GLM API"
+  },
+  "emailForm": {
+    "placeholder": "请输入您的邮箱地址",
+    "submit": "开始使用",
+    "submitting": "提交中...",
+    "success": "提交成功！我们将在 72 小时内与您联系。",
+    "error": "提交失败，请稍后重试。",
+    "networkError": "网络错误，请稍后重试。"
+  },
+  "codeBlock": {
+    "copy": "复制",
+    "copied": "已复制！"
+  },
+  "pricingTable": {
+    "model": "模型",
+    "officialPrice": "官方价格",
+    "ourPrice": "我们的价格",
+    "save": "节省",
+    "savePercent": "节省 {percent}%"
+  },
+  "docsSidebar": {
+    "overview": "API 概览",
+    "apiDocs": "API 文档",
+    "text": "文本生成",
+    "vision": "视觉模型",
+    "image": "图像生成",
+    "video": "视频生成",
+    "voice": "语音模型",
+    "embedding": "向量嵌入",
+    "tools": "联网搜索"
+  },
+  "docPage": {
+    "endpoints": "API 端点",
+    "parameters": "请求参数",
+    "paramName": "参数",
+    "paramType": "类型",
+    "required": "必填",
+    "optional": "可选",
+    "description": "说明",
+    "requestExample": "请求示例",
+    "responseExample": "响应示例",
+    "codeExamples": "代码示例"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "de": "Deutsch",
+    "es": "Español"
+  }
+}

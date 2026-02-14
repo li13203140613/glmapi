@@ -1,0 +1,90 @@
+{
+  "text": {
+    "title": "Text Generation (Chat Completions)",
+    "description": "GLM-4 series large language model chat completion interface. Fully compatible with OpenAI Chat Completions API format, supporting streaming output and function calling.",
+    "endpoints": {
+      "chatcompletion": "Create chat completion"
+    },
+    "parameters": {
+      "model": "Model name: GLM-4-Plus, GLM-4-Air, GLM-4-AirX, GLM-4-Long, GLM-4-FlashX, GLM-4-Flash",
+      "messages": "Array of conversation messages, each containing role and content",
+      "temperature": "Sampling temperature, range 0-1, default 0.7",
+      "max_tokens": "Maximum number of tokens to generate",
+      "stream": "Whether to use streaming output, default false",
+      "top_p": "Nucleus sampling parameter, default 0.9",
+      "tools": "Available tools list (function calling)"
+    }
+  },
+  "vision": {
+    "title": "Multimodal Understanding (Vision)",
+    "description": "GLM-4V series multimodal model supporting image understanding and visual question answering.",
+    "endpoints": {
+      "chatcompletion": "Multimodal dialogue"
+    },
+    "parameters": {
+      "model": "Model name: GLM-4V, GLM-4V-Plus",
+      "messages": "Message list, content can include text and image_url",
+      "temperature": "Sampling temperature, default 0.7",
+      "max_tokens": "Maximum number of tokens to generate"
+    }
+  },
+  "image": {
+    "title": "Image Generation (CogView)",
+    "description": "CogView series AI image generation model supporting text-to-image.",
+    "endpoints": {
+      "imageGeneration": "Generate image"
+    },
+    "parameters": {
+      "model": "Model name: CogView-3, CogView-3-Plus",
+      "prompt": "Image description text",
+      "size": "Image size, e.g. 1024x1024, default 1024x1024",
+      "n": "Number of images to generate, default 1"
+    }
+  },
+  "video": {
+    "title": "Video Generation (CogVideoX)",
+    "description": "CogVideoX AI video generation model supporting text-to-video.",
+    "endpoints": {
+      "videoGeneration": "Create video generation task"
+    },
+    "parameters": {
+      "model": "Model name: CogVideoX",
+      "prompt": "Video description text"
+    }
+  },
+  "voice": {
+    "title": "Voice Model (GLM-4-Voice)",
+    "description": "GLM-4-Voice voice dialogue model supporting text-to-speech.",
+    "endpoints": {
+      "tts": "Text to speech"
+    },
+    "parameters": {
+      "model": "Model name: GLM-4-Voice",
+      "input": "Text to convert to speech",
+      "voice": "Voice selection, default alloy"
+    }
+  },
+  "embedding": {
+    "title": "Embedding (Embedding-3)",
+    "description": "Text embedding interface for semantic search and text similarity computation.",
+    "endpoints": {
+      "embeddings": "Text embedding"
+    },
+    "parameters": {
+      "model": "Model name: Embedding-3",
+      "input": "Text or array of texts to embed"
+    }
+  },
+  "tools": {
+    "title": "Web Search (Tools)",
+    "description": "Web search tool supporting real-time web information retrieval.",
+    "endpoints": {
+      "chatcompletion": "Dialogue with tools"
+    },
+    "parameters": {
+      "model": "Model supporting tool calling",
+      "messages": "Dialogue messages",
+      "tools": "Tool definition list, including web_search"
+    }
+  }
+}

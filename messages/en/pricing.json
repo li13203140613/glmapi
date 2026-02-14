@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "Transparent Pricing, 40% of Official",
+    "subtitle": "All GLM API services at 40% of official pricing, no hidden fees, pay-as-you-go."
+  },
+  "currencyNote": "Currency: Chinese Yuan (CNY)",
+  "tables": {
+    "textModels": "Text Generation Models - GLM 4.7 API Pricing",
+    "visionModels": "Multimodal Vision Models - GLM-4V API Pricing",
+    "imageModels": "Image Generation Models - CogView API Pricing",
+    "videoModels": "Video Generation Models - CogVideoX API Pricing",
+    "voiceModels": "Voice Models - GLM-4-Voice API Pricing",
+    "toolModels": "Tools & Embedding - GLM API Tools Pricing"
+  },
+  "models": {
+    "textGeneration": "Text Generation",
+    "visionUnderstanding": "Multimodal Understanding",
+    "imageGeneration": "Image Generation",
+    "videoGeneration": "Video Generation",
+    "voiceDialogue": "Voice Dialogue",
+    "embedding": "Embedding",
+    "webSearch": "Web Search",
+    "millionTokens": "million tokens",
+    "perImage": "per image",
+    "perVideo": "per video",
+    "free": "Free"
+  },
+  "descriptions": {
+    "glm-4-plus": "Most powerful GLM-4 model for complex tasks",
+    "glm-4-long": "Long context model supporting 1M tokens",
+    "glm-4-air": "High cost-performance model, fast speed",
+    "glm-4-airx": "Enhanced Air model with better performance",
+    "glm-4-flashx": "Ultra-fast response model",
+    "glm-4-flash": "Free fast model",
+    "glm-4v-plus": "Enhanced multimodal model with image understanding",
+    "glm-4v": "Multimodal model for image-text understanding",
+    "cogview-3-plus": "High-quality image generation model",
+    "cogview-3": "Fast image generation model",
+    "cogvideox": "AI video generation model",
+    "glm-4-voice": "Voice dialogue model",
+    "embedding-3": "Text embedding model",
+    "web-search-pro": "Web search tool"
+  },
+  "notes": {
+    "title": "Pricing Notes",
+    "items": [
+      "All prices are billed in real-time based on actual usage",
+      "Prices include all service fees with no hidden charges",
+      "Comparison prices are Zhipu AI official pricing; our prices are 40% of official",
+      "API endpoints are fully compatible with GLM official endpoints, no code changes needed",
+      "Contact us for GLM free API trial credits and enterprise discount plans"
+    ]
+  },
+  "relatedGuides": {
+    "title": "Related Guides",
+    "home": { "title": "GLM API Home", "description": "Learn about GLM API proxy service" },
+    "glm47": { "title": "GLM 4.7 API Complete Guide", "description": "GLM-4.7 features and usage" },
+    "free": { "title": "GLM Free API", "description": "GLM free API trial options" },
+    "apiKey": { "title": "GLM API Key Setup", "description": "Get your GLM API key" },
+    "flash": { "title": "GLM 4.7 Flash API", "description": "High-performance Flash model details" },
+    "coding": { "title": "GLM Coding Plan", "description": "Coding plan comparison review" }
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "Leave your email and we'll contact you within 72 hours to set up your GLM API access at 40% of official pricing."
+  }
+}

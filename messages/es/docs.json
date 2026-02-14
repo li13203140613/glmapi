@@ -1,0 +1,59 @@
+{
+  "overview": {
+    "title": "Documentación de GLM API",
+    "description": "Bienvenido al servicio proxy de GLM (Zhipu AI) API. Esta documentación proporciona instrucciones detalladas para todos los endpoints de API disponibles, incluyendo parámetros de solicitud, formatos de respuesta y ejemplos de código."
+  },
+  "baseUrl": {
+    "title": "URL Base",
+    "url": "https://your-proxy-domain.com/v1",
+    "description": "Todas las solicitudes de API deben enviarse a la URL base anterior, seguida de la ruta del endpoint específico."
+  },
+  "auth": {
+    "title": "Autenticación",
+    "description": "Todas las solicitudes de API requieren un Bearer Token válido en el encabezado de la solicitud:",
+    "code": "Authorization: Bearer YOUR_API_KEY",
+    "warning": "Por favor, mantenga su API key segura y no la exponga en código del lado del cliente."
+  },
+  "sections": {
+    "title": "Módulos de la API",
+    "text": {
+      "title": "Generación de Texto",
+      "titleEn": "Chat Completions",
+      "description": "Interfaz conversacional del modelo de lenguaje grande de la serie GLM-4, totalmente compatible con el formato OpenAI"
+    },
+    "vision": {
+      "title": "Comprensión Multimodal",
+      "titleEn": "Vision",
+      "description": "Serie GLM-4V que soporta comprensión de imágenes y respuesta visual a preguntas"
+    },
+    "image": {
+      "title": "Generación de Imágenes",
+      "titleEn": "CogView",
+      "description": "Modelos de generación de imágenes con IA de la serie CogView"
+    },
+    "video": {
+      "title": "Generación de Video",
+      "titleEn": "CogVideoX",
+      "description": "Generación de video con IA CogVideoX a partir de indicaciones de texto"
+    },
+    "voice": {
+      "title": "Modelo de Voz",
+      "titleEn": "GLM-4-Voice",
+      "description": "Modelo de diálogo de voz de extremo a extremo GLM-4-Voice"
+    },
+    "embedding": {
+      "title": "Embedding",
+      "titleEn": "Embedding",
+      "description": "Interfaz de embedding de texto para búsqueda semántica y cálculo de similitud"
+    },
+    "tools": {
+      "title": "Búsqueda Web",
+      "titleEn": "Web Search & Tools",
+      "description": "Capacidades integradas de búsqueda web y llamadas a herramientas"
+    }
+  },
+  "help": {
+    "title": "¿Necesita Ayuda?",
+    "description": "Si encuentra algún problema o necesita soporte técnico, por favor contáctenos a través de la información proporcionada en la documentación."
+  }
+}

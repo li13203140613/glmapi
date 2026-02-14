@@ -1,0 +1,90 @@
+{
+  "text": {
+    "title": "テキスト生成 (Chat Completions)",
+    "description": "GLM-4シリーズ大規模言語モデルのチャット補完インターフェース。OpenAI Chat Completions API形式と完全互換で、ストリーミング出力およびファンクションコーリングをサポート。",
+    "endpoints": {
+      "chatcompletion": "チャット補完を作成"
+    },
+    "parameters": {
+      "model": "モデル名：GLM-4-Plus、GLM-4-Air、GLM-4-AirX、GLM-4-Long、GLM-4-FlashX、GLM-4-Flash",
+      "messages": "会話メッセージの配列。各メッセージにはroleとcontentを含む",
+      "temperature": "サンプリング温度、範囲0〜1、デフォルト0.7",
+      "max_tokens": "生成するトークンの最大数",
+      "stream": "ストリーミング出力を使用するかどうか、デフォルトfalse",
+      "top_p": "核サンプリングパラメータ、デフォルト0.9",
+      "tools": "利用可能なツールリスト（ファンクションコーリング）"
+    }
+  },
+  "vision": {
+    "title": "マルチモーダル理解 (Vision)",
+    "description": "GLM-4Vシリーズマルチモーダルモデル。画像理解と視覚的質問応答をサポート。",
+    "endpoints": {
+      "chatcompletion": "マルチモーダル対話"
+    },
+    "parameters": {
+      "model": "モデル名：GLM-4V、GLM-4V-Plus",
+      "messages": "メッセージリスト。contentにはテキストとimage_urlを含めることが可能",
+      "temperature": "サンプリング温度、デフォルト0.7",
+      "max_tokens": "生成するトークンの最大数"
+    }
+  },
+  "image": {
+    "title": "画像生成 (CogView)",
+    "description": "CogViewシリーズAI画像生成モデル。テキストから画像への変換をサポート。",
+    "endpoints": {
+      "imageGeneration": "画像を生成"
+    },
+    "parameters": {
+      "model": "モデル名：CogView-3、CogView-3-Plus",
+      "prompt": "画像の説明テキスト",
+      "size": "画像サイズ、例：1024x1024、デフォルト1024x1024",
+      "n": "生成する画像の枚数、デフォルト1"
+    }
+  },
+  "video": {
+    "title": "動画生成 (CogVideoX)",
+    "description": "CogVideoX AI動画生成モデル。テキストから動画への変換をサポート。",
+    "endpoints": {
+      "videoGeneration": "動画生成タスクを作成"
+    },
+    "parameters": {
+      "model": "モデル名：CogVideoX",
+      "prompt": "動画の説明テキスト"
+    }
+  },
+  "voice": {
+    "title": "音声モデル (GLM-4-Voice)",
+    "description": "GLM-4-Voice音声対話モデル。テキスト読み上げをサポート。",
+    "endpoints": {
+      "tts": "テキスト読み上げ"
+    },
+    "parameters": {
+      "model": "モデル名：GLM-4-Voice",
+      "input": "音声に変換するテキスト",
+      "voice": "音声の選択、デフォルトalloy"
+    }
+  },
+  "embedding": {
+    "title": "エンベディング (Embedding-3)",
+    "description": "テキストエンベディングインターフェース。セマンティック検索およびテキスト類似度計算に対応。",
+    "endpoints": {
+      "embeddings": "テキストエンベディング"
+    },
+    "parameters": {
+      "model": "モデル名：Embedding-3",
+      "input": "エンベディングするテキストまたはテキスト配列"
+    }
+  },
+  "tools": {
+    "title": "ウェブ検索 (Tools)",
+    "description": "ウェブ検索ツール。リアルタイムのウェブ情報取得をサポート。",
+    "endpoints": {
+      "chatcompletion": "ツール付き対話"
+    },
+    "parameters": {
+      "model": "ツール呼び出し対応モデル",
+      "messages": "対話メッセージ",
+      "tools": "web_searchを含むツール定義リスト"
+    }
+  }
+}

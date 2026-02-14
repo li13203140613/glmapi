@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "투명한 요금, 공식 가격의 40%",
+    "subtitle": "모든 GLM API 서비스가 공식 가격의 40%, 숨겨진 비용 없이 종량제로 이용 가능합니다."
+  },
+  "currencyNote": "통화: 중국 위안(CNY)",
+  "tables": {
+    "textModels": "텍스트 생성 모델 - GLM 4.7 API 요금",
+    "visionModels": "멀티모달 비전 모델 - GLM-4V API 요금",
+    "imageModels": "이미지 생성 모델 - CogView API 요금",
+    "videoModels": "비디오 생성 모델 - CogVideoX API 요금",
+    "voiceModels": "음성 모델 - GLM-4-Voice API 요금",
+    "toolModels": "도구 및 임베딩 - GLM API 도구 요금"
+  },
+  "models": {
+    "textGeneration": "텍스트 생성",
+    "visionUnderstanding": "멀티모달 이해",
+    "imageGeneration": "이미지 생성",
+    "videoGeneration": "비디오 생성",
+    "voiceDialogue": "음성 대화",
+    "embedding": "임베딩",
+    "webSearch": "웹 검색",
+    "millionTokens": "백만 토큰",
+    "perImage": "이미지당",
+    "perVideo": "비디오당",
+    "free": "무료"
+  },
+  "descriptions": {
+    "glm-4-plus": "복잡한 작업을 위한 가장 강력한 GLM-4 모델",
+    "glm-4-long": "100만 토큰을 지원하는 긴 컨텍스트 모델",
+    "glm-4-air": "높은 가성비의 빠른 모델",
+    "glm-4-airx": "향상된 성능의 Air 모델",
+    "glm-4-flashx": "초고속 응답 모델",
+    "glm-4-flash": "무료 고속 모델",
+    "glm-4v-plus": "이미지 이해 기능이 향상된 멀티모달 모델",
+    "glm-4v": "이미지-텍스트 이해를 위한 멀티모달 모델",
+    "cogview-3-plus": "고품질 이미지 생성 모델",
+    "cogview-3": "고속 이미지 생성 모델",
+    "cogvideox": "AI 비디오 생성 모델",
+    "glm-4-voice": "음성 대화 모델",
+    "embedding-3": "텍스트 임베딩 모델",
+    "web-search-pro": "웹 검색 도구"
+  },
+  "notes": {
+    "title": "요금 안내",
+    "items": [
+      "모든 가격은 실제 사용량 기반으로 실시간 청구됩니다",
+      "모든 서비스 요금이 포함되어 있으며 숨겨진 비용이 없습니다",
+      "비교 가격은 Zhipu AI 공식 가격이며, 저희 가격은 공식의 40%입니다",
+      "API 엔드포인트는 GLM 공식 엔드포인트와 완벽하게 호환되므로 코드 변경이 필요 없습니다",
+      "GLM 무료 API 체험 크레딧 및 기업 할인 플랜에 대해 문의해 주세요"
+    ]
+  },
+  "relatedGuides": {
+    "title": "관련 가이드",
+    "home": { "title": "GLM API 홈", "description": "GLM API 프록시 서비스 알아보기" },
+    "glm47": { "title": "GLM 4.7 API 완벽 가이드", "description": "GLM-4.7 기능 및 사용법" },
+    "free": { "title": "GLM 무료 API", "description": "GLM 무료 API 체험 옵션" },
+    "apiKey": { "title": "GLM API 키 설정", "description": "GLM API 키 발급받기" },
+    "flash": { "title": "GLM 4.7 Flash API", "description": "고성능 Flash 모델 상세 정보" },
+    "coding": { "title": "GLM 코딩 플랜", "description": "코딩 플랜 비교 리뷰" }
+  },
+  "cta": {
+    "title": "시작할 준비가 되셨나요?",
+    "description": "이메일을 남겨주시면 72시간 이내에 연락드려 공식 가격의 40%에 GLM API 접근을 설정해 드리겠습니다."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "透明定价，官方的 40%",
+    "subtitle": "所有 GLM API 服务均为官方价格的 40%，无隐藏费用，按量付费。"
+  },
+  "currencyNote": "货币单位：人民币（CNY）",
+  "tables": {
+    "textModels": "文本生成模型 - GLM 4.7 API 价格",
+    "visionModels": "多模态视觉模型 - GLM-4V API 价格",
+    "imageModels": "图像生成模型 - CogView API 价格",
+    "videoModels": "视频生成模型 - CogVideoX API 价格",
+    "voiceModels": "语音模型 - GLM-4-Voice API 价格",
+    "toolModels": "工具与嵌入 - GLM API 工具价格"
+  },
+  "models": {
+    "textGeneration": "文本生成",
+    "visionUnderstanding": "多模态理解",
+    "imageGeneration": "图像生成",
+    "videoGeneration": "视频生成",
+    "voiceDialogue": "语音对话",
+    "embedding": "向量嵌入",
+    "webSearch": "联网搜索",
+    "millionTokens": "百万 tokens",
+    "perImage": "每张图片",
+    "perVideo": "每个视频",
+    "free": "免费"
+  },
+  "descriptions": {
+    "glm-4-plus": "最强大的 GLM-4 模型，适用于复杂任务",
+    "glm-4-long": "长上下文模型，支持 100 万 tokens",
+    "glm-4-air": "高性价比模型，速度快",
+    "glm-4-airx": "增强版 Air 模型，性能更优",
+    "glm-4-flashx": "超快响应模型",
+    "glm-4-flash": "免费的快速模型",
+    "glm-4v-plus": "增强版多模态模型，支持图像理解",
+    "glm-4v": "多模态模型，支持图文理解",
+    "cogview-3-plus": "高质量图像生成模型",
+    "cogview-3": "快速图像生成模型",
+    "cogvideox": "AI 视频生成模型",
+    "glm-4-voice": "语音对话模型",
+    "embedding-3": "文本向量嵌入模型",
+    "web-search-pro": "联网搜索工具"
+  },
+  "notes": {
+    "title": "价格说明",
+    "items": [
+      "所有价格按实际使用量实时计费",
+      "价格已包含所有服务费用，无隐藏收费",
+      "对比价格为智谱 AI 官方定价；我们的价格为官方的 40%",
+      "API 端点完全兼容 GLM 官方端点，无需修改代码",
+      "联系我们获取 GLM 免费 API 试用额度和企业折扣方案"
+    ]
+  },
+  "relatedGuides": {
+    "title": "相关指南",
+    "home": { "title": "GLM API 首页", "description": "了解 GLM API 代理服务" },
+    "glm47": { "title": "GLM 4.7 API 完整指南", "description": "GLM-4.7 功能与使用方法" },
+    "free": { "title": "GLM 免费 API", "description": "GLM 免费 API 试用选项" },
+    "apiKey": { "title": "GLM API Key 设置", "description": "获取您的 GLM API Key" },
+    "flash": { "title": "GLM 4.7 Flash API", "description": "高性能 Flash 模型详情" },
+    "coding": { "title": "GLM 编程方案", "description": "编程方案对比评测" }
+  },
+  "cta": {
+    "title": "准备好开始了吗？",
+    "description": "留下您的邮箱，我们将在 72 小时内与您联系，为您设置官方价格 40% 的 GLM API 访问权限。"
+  }
+}

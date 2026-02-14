@@ -1,11 +1,12 @@
 "use client"
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { Link, usePathname } from "@/i18n/navigation"
+import { useTranslations } from "next-intl"
 import { docSections } from "@/lib/docs-data"
 
 export default function ApiDocSidebar() {
   const pathname = usePathname()
+  const t = useTranslations("docsSidebar")
 
   return (
     <aside className="w-full shrink-0 md:w-64">
@@ -18,11 +19,11 @@ export default function ApiDocSidebar() {
               : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800"
           }`}
         >
-          API 概览
+          {t("overview")}
         </Link>
         <div className="py-2">
           <div className="px-3 py-1 text-xs font-semibold uppercase tracking-wider text-zinc-400">
-            接口文档
+            {t("apiDocs")}
           </div>
         </div>
         {docSections.map((section) => (
@@ -36,7 +37,7 @@ export default function ApiDocSidebar() {
             }`}
           >
             <span>{section.icon}</span>
-            <span>{section.title}</span>
+            <span>{t(section.slug)}</span>
           </Link>
         ))}
       </nav>

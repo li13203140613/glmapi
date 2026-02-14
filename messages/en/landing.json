@@ -1,0 +1,211 @@
+{
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "glm47Api": {
+    "breadcrumb": "GLM 4.7 API",
+    "hero": {
+      "title": "GLM 4.7 API - The Complete Developer Guide",
+      "description": "Everything you need to know about integrating GLM 4.7 API into your applications. From basic setup to advanced features, pricing comparisons, and code examples."
+    },
+    "whatIs": {
+      "title": "What is GLM 4.7 API?",
+      "p1": "The GLM 4.7 API (also known as GLM-4.7 API) is the latest generation API from Zhipu AI, providing access to the powerful GLM-4.7 language model. This API enables developers to integrate state-of-the-art AI capabilities into their applications.",
+      "p2": "GLM-4.7 represents a significant advancement in Chinese-English bilingual language models, combining advanced reasoning capabilities with exceptional performance across multiple benchmarks."
+    },
+    "features": {
+      "title": "GLM 4.7 API Features",
+      "items": [
+        { "icon": "brain", "title": "Advanced Reasoning", "description": "Chain-of-thought reasoning for complex problem solving" },
+        { "icon": "code", "title": "Superior Coding", "description": "Production-ready code in Python, JavaScript, Java, C++, and more" },
+        { "icon": "globe", "title": "Multilingual Support", "description": "Native Chinese and English with support for Japanese, Korean, German, and more" },
+        { "icon": "book", "title": "128K Context Window", "description": "Process up to 128,000 tokens - approximately 200 pages of text" }
+      ]
+    },
+    "relatedResources": "Related Resources",
+    "cta": {
+      "title": "Ready to Start with GLM 4.7 API?",
+      "description": "Get access to GLM-4.7 API at 40% off official pricing. Leave your email and we'll contact you within 72 hours."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "What is GLM 4.7 API?",
+          "a": "GLM 4.7 API is the latest generation API from Zhipu AI providing access to the powerful GLM-4.7 language model with advanced reasoning, coding, and multilingual capabilities."
+        },
+        {
+          "q": "How much does GLM 4.7 API cost?",
+          "a": "Through our proxy service, GLM-4-Air costs \u00a50.0004/1K tokens and GLM-4-Plus costs \u00a50.02/1K tokens - 40% of official pricing."
+        },
+        {
+          "q": "Is GLM 4.7 API compatible with OpenAI?",
+          "a": "Yes, GLM-4.7 API is fully compatible with the OpenAI Chat Completions API format, making it easy to integrate into existing applications."
+        }
+      ]
+    }
+  },
+  "glmFreeApi": {
+    "breadcrumb": "GLM Free API",
+    "hero": {
+      "title": "GLM Free API - Get Free Access to GLM 4.7 API",
+      "description": "Discover how to access GLM API for free, which models are available at no cost, and the best affordable alternatives for production applications."
+    },
+    "isFree": {
+      "title": "Is GLM API Free?",
+      "p1": "Yes! GLM API does offer free access to certain models. Zhipu AI provides the GLM-4-Flash model completely free of charge.",
+      "whatsFreTitle": "What's Free?",
+      "whatsNotFreeTitle": "What's Not Free?"
+    },
+    "howToGet": {
+      "title": "How to Get GLM Free API Access",
+      "steps": [
+        { "title": "Register an Account", "description": "Visit open.bigmodel.cn and create a free account." },
+        { "title": "Get Your API Key", "description": "Navigate to the API Keys section and generate a new key." },
+        { "title": "Make Your First API Call", "description": "Use the free GLM-4-Flash model to start building." },
+        { "title": "Monitor Your Usage", "description": "Keep track of free tier usage in the dashboard." }
+      ]
+    },
+    "affordable": {
+      "title": "Affordable Alternative: 40% Off All GLM Models",
+      "description": "Access all GLM models at only 40% of official pricing through our proxy service."
+    },
+    "relatedResources": "Related Resources",
+    "cta": {
+      "title": "Ready to Upgrade from Free Tier?",
+      "description": "Get unlimited access to all GLM models at 40% off official pricing. Leave your email and we'll set up your account within 72 hours."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Is there a GLM free API?",
+          "a": "Yes, GLM-4-Flash is completely free. Our proxy service offers paid models at 40% of official pricing."
+        },
+        {
+          "q": "What's the cheapest way to use GLM API?",
+          "a": "The cheapest paid option is our proxy service at 40% of official pricing, saving you 60% on every API call."
+        }
+      ]
+    }
+  },
+  "glmApiKey": {
+    "breadcrumb": "GLM API Key",
+    "hero": {
+      "title": "GLM API Key - Complete Setup Guide",
+      "description": "Everything you need to know about obtaining, configuring, and using your GLM API key securely."
+    },
+    "whatIs": {
+      "title": "What is a GLM API Key?",
+      "p1": "A GLM API key is a unique authentication token that allows you to access Zhipu AI's GLM models programmatically.",
+      "p2": "Your key authenticates requests and tracks usage billing."
+    },
+    "howToGet": {
+      "title": "How to Get Your GLM API Key",
+      "proxy": {
+        "title": "Option 1: Our Proxy Service (Recommended - 40% Off)",
+        "steps": [
+          "Leave your email on our website",
+          "We'll contact you within 72 hours",
+          "Get your API key at 40% of official pricing",
+          "Start using all GLM APIs immediately"
+        ]
+      },
+      "official": {
+        "title": "Option 2: Official Zhipu AI Platform",
+        "steps": [
+          "Register an account on open.bigmodel.cn",
+          "Complete identity verification",
+          "Navigate to API Key management",
+          "Generate a new API key"
+        ]
+      }
+    },
+    "security": {
+      "title": "GLM API Key Best Practices",
+      "items": [
+        { "bold": "Never expose your key in client-side code", "text": "Always keep it on the server side." },
+        { "bold": "Use environment variables", "text": "Store credentials in .env files, never hardcode them." },
+        { "bold": "Rotate keys regularly", "text": "Generate new credentials periodically for better security." },
+        { "bold": "Monitor usage", "text": "Keep track of your API usage to detect unauthorized access." }
+      ]
+    },
+    "relatedResources": "Related Resources",
+    "cta": {
+      "title": "Ready to Save 60% on GLM API Costs?",
+      "description": "Use your existing GLM API knowledge with our proxy service. Same API, same features, better pricing."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "How do I get a GLM API Key?",
+          "a": "Register on the official Zhipu AI platform, or use our proxy service for a key at 40% of official price."
+        },
+        {
+          "q": "Is the GLM API Key free?",
+          "a": "GLM offers limited free credits for new users. Our proxy service offers the most affordable paid option."
+        },
+        {
+          "q": "Can I use one key for all services?",
+          "a": "Yes, a single key gives access to all services including text, vision, image, video, and voice."
+        }
+      ]
+    }
+  },
+  "glm47FlashApi": {
+    "breadcrumb": "GLM 4.7 Flash API",
+    "hero": {
+      "title": "GLM 4.7 Flash API - Fast & Free GLM Model",
+      "description": "Complete guide to the GLM-4.7-Flash API. Learn about the free, fast Flash model features, performance analysis, and production use cases."
+    },
+    "whatIs": {
+      "title": "What is GLM-4-Flash?",
+      "p1": "GLM-4-Flash is the free, high-speed model in the GLM-4 family. It's optimized for fast responses while maintaining good output quality.",
+      "p2": "GLM-4-FlashX is the enhanced version with even faster inference speed."
+    },
+    "relatedResources": "Related Resources",
+    "cta": {
+      "title": "Need More Power? Get 40% Off Premium Models",
+      "description": "Upgrade from GLM-4-Flash to premium models at 40% off official pricing."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Is GLM-4-Flash really free?",
+          "a": "Yes, GLM-4-Flash is completely free with reasonable rate limits for development and testing."
+        },
+        {
+          "q": "What's the difference between Flash and FlashX?",
+          "a": "GLM-4-FlashX offers even faster inference speed at a very low cost of \u00a50.0001/1K tokens (our price)."
+        }
+      ]
+    }
+  },
+  "glmCodingPlan": {
+    "breadcrumb": "GLM Coding Plan",
+    "hero": {
+      "title": "GLM Coding Plan - Subscription Plans & API Comparison",
+      "description": "Compare GLM Coding Plan subscription options with pay-as-you-go API pricing. Find the best plan for your development needs."
+    },
+    "whatIs": {
+      "title": "What is GLM Coding Plan?",
+      "p1": "GLM Coding Plan refers to the various subscription and pricing plans offered by Zhipu AI for developers using GLM models for coding tasks.",
+      "p2": "Understanding these plans helps you choose the most cost-effective option for your development workflow."
+    },
+    "relatedResources": "Related Resources",
+    "cta": {
+      "title": "Get the Best Deal on GLM API",
+      "description": "Our proxy service offers 40% off all GLM models with no subscription required. Pay only for what you use."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "What is the best GLM plan for developers?",
+          "a": "For most developers, our pay-as-you-go proxy service at 40% off is the most cost-effective option."
+        },
+        {
+          "q": "Do I need a subscription for GLM API?",
+          "a": "No, our proxy service offers pay-as-you-go pricing without any subscription commitment."
+        }
+      ]
+    }
+  }
+}

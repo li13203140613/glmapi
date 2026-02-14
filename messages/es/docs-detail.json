@@ -1,0 +1,90 @@
+{
+  "text": {
+    "title": "Generación de Texto (Chat Completions)",
+    "description": "Interfaz de chat completions del modelo de lenguaje grande de la serie GLM-4. Totalmente compatible con el formato OpenAI Chat Completions API, soporta salida en streaming y llamadas a funciones.",
+    "endpoints": {
+      "chatcompletion": "Crear chat completion"
+    },
+    "parameters": {
+      "model": "Nombre del modelo: GLM-4-Plus, GLM-4-Air, GLM-4-AirX, GLM-4-Long, GLM-4-FlashX, GLM-4-Flash",
+      "messages": "Array de mensajes de conversación, cada uno contiene role y content",
+      "temperature": "Temperatura de muestreo, rango 0-1, predeterminado 0.7",
+      "max_tokens": "Número máximo de tokens a generar",
+      "stream": "Si usar salida en streaming, predeterminado false",
+      "top_p": "Parámetro de muestreo nucleus, predeterminado 0.9",
+      "tools": "Lista de herramientas disponibles (llamadas a funciones)"
+    }
+  },
+  "vision": {
+    "title": "Comprensión Multimodal (Vision)",
+    "description": "Modelo multimodal de la serie GLM-4V que soporta comprensión de imágenes y respuesta visual a preguntas.",
+    "endpoints": {
+      "chatcompletion": "Diálogo multimodal"
+    },
+    "parameters": {
+      "model": "Nombre del modelo: GLM-4V, GLM-4V-Plus",
+      "messages": "Lista de mensajes, el contenido puede incluir texto e image_url",
+      "temperature": "Temperatura de muestreo, predeterminado 0.7",
+      "max_tokens": "Número máximo de tokens a generar"
+    }
+  },
+  "image": {
+    "title": "Generación de Imágenes (CogView)",
+    "description": "Modelo de generación de imágenes con IA de la serie CogView que soporta texto a imagen.",
+    "endpoints": {
+      "imageGeneration": "Generar imagen"
+    },
+    "parameters": {
+      "model": "Nombre del modelo: CogView-3, CogView-3-Plus",
+      "prompt": "Texto de descripción de la imagen",
+      "size": "Tamaño de la imagen, ej. 1024x1024, predeterminado 1024x1024",
+      "n": "Número de imágenes a generar, predeterminado 1"
+    }
+  },
+  "video": {
+    "title": "Generación de Video (CogVideoX)",
+    "description": "Modelo de generación de video con IA CogVideoX que soporta texto a video.",
+    "endpoints": {
+      "videoGeneration": "Crear tarea de generación de video"
+    },
+    "parameters": {
+      "model": "Nombre del modelo: CogVideoX",
+      "prompt": "Texto de descripción del video"
+    }
+  },
+  "voice": {
+    "title": "Modelo de Voz (GLM-4-Voice)",
+    "description": "Modelo de diálogo de voz GLM-4-Voice que soporta texto a voz.",
+    "endpoints": {
+      "tts": "Texto a voz"
+    },
+    "parameters": {
+      "model": "Nombre del modelo: GLM-4-Voice",
+      "input": "Texto a convertir en voz",
+      "voice": "Selección de voz, predeterminado alloy"
+    }
+  },
+  "embedding": {
+    "title": "Embedding (Embedding-3)",
+    "description": "Interfaz de embedding de texto para búsqueda semántica y cálculo de similitud de texto.",
+    "endpoints": {
+      "embeddings": "Embedding de texto"
+    },
+    "parameters": {
+      "model": "Nombre del modelo: Embedding-3",
+      "input": "Texto o array de textos para embedding"
+    }
+  },
+  "tools": {
+    "title": "Búsqueda Web (Tools)",
+    "description": "Herramienta de búsqueda web que soporta recuperación de información web en tiempo real.",
+    "endpoints": {
+      "chatcompletion": "Diálogo con herramientas"
+    },
+    "parameters": {
+      "model": "Modelo que soporta llamadas a herramientas",
+      "messages": "Mensajes de diálogo",
+      "tools": "Lista de definición de herramientas, incluyendo web_search"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "overview": {
+    "title": "GLM API-Dokumentation",
+    "description": "Willkommen beim GLM (Zhipu AI) API Proxy-Dienst. Diese Dokumentation bietet detaillierte Anleitungen für alle verfügbaren API-Endpunkte, einschließlich Anfrageparameter, Antwortformate und Code-Beispiele."
+  },
+  "baseUrl": {
+    "title": "Basis-URL",
+    "url": "https://your-proxy-domain.com/v1",
+    "description": "Alle API-Anfragen sollten an die oben genannte Basis-URL gesendet werden, gefolgt vom jeweiligen Endpunkt-Pfad."
+  },
+  "auth": {
+    "title": "Authentifizierung",
+    "description": "Alle API-Anfragen erfordern ein gültiges Bearer Token im Anfrage-Header:",
+    "code": "Authorization: Bearer YOUR_API_KEY",
+    "warning": "Bitte bewahren Sie Ihren API-Schlüssel sicher auf und verwenden Sie ihn nicht in clientseitigem Code."
+  },
+  "sections": {
+    "title": "API-Module",
+    "text": {
+      "title": "Textgenerierung",
+      "titleEn": "Chat Completions",
+      "description": "GLM-4 Serien-Sprachmodell Konversationsschnittstelle, vollständig kompatibel mit dem OpenAI-Format"
+    },
+    "vision": {
+      "title": "Multimodale Bilderkennung",
+      "titleEn": "Vision",
+      "description": "GLM-4V Serien mit Unterstützung für Bildverständnis und visuelle Fragebeantwortung"
+    },
+    "image": {
+      "title": "Bildgenerierung",
+      "titleEn": "CogView",
+      "description": "CogView Serien-KI-Bildgenerierungsmodelle"
+    },
+    "video": {
+      "title": "Videogenerierung",
+      "titleEn": "CogVideoX",
+      "description": "CogVideoX KI-Videogenerierung aus Textbeschreibungen"
+    },
+    "voice": {
+      "title": "Sprachmodell",
+      "titleEn": "GLM-4-Voice",
+      "description": "GLM-4-Voice End-to-End-Sprachdialogmodell"
+    },
+    "embedding": {
+      "title": "Embedding",
+      "titleEn": "Embedding",
+      "description": "Text-Embedding-Schnittstelle für semantische Suche und Ähnlichkeitsberechnung"
+    },
+    "tools": {
+      "title": "Websuche",
+      "titleEn": "Web Search & Tools",
+      "description": "Integrierte Websuche und Tool-Calling-Funktionen"
+    }
+  },
+  "help": {
+    "title": "Brauchen Sie Hilfe?",
+    "description": "Wenn Sie auf Probleme stoßen oder technischen Support benötigen, kontaktieren Sie uns bitte über die in der Dokumentation angegebenen Informationen."
+  }
+}

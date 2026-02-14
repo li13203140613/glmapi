@@ -1,0 +1,107 @@
+{
+  "homepage": {
+    "title": "GLM APIプロキシ - 公式価格の40% | GLM APIプロキシ",
+    "titleTemplate": "%s | GLM APIプロキシ",
+    "description": "GLM API公式プロキシサービスを公式価格のわずか40%で提供。テキスト生成、マルチモーダルビジョン、動画生成、画像生成、音声モデル、エンベディング、ウェブ検索など、Zhipu AIの全機能をご利用いただけます。安定・信頼性が高く、公式GLMエンドポイントと完全互換。",
+    "keywords": [
+      "GLM API",
+      "GLM APIプロキシ",
+      "GLM APIプロキシサービス",
+      "Zhipu AI",
+      "Zhipu AI API",
+      "GLM-4 API",
+      "GLM-4.7 API",
+      "GLM-4V API",
+      "CogView API",
+      "CogVideoX API",
+      "GLM-4-Voice",
+      "AI API",
+      "お手頃AI API",
+      "GLM API割引"
+    ]
+  },
+  "pricing": {
+    "title": "料金 - GLM APIプロキシ",
+    "description": "GLM APIプロキシサービスの料金表。公式価格の40%。テキスト生成、マルチモーダルビジョン、動画生成、画像生成、音声モデルなど、Zhipu AIの全AI機能の透明な料金体系。",
+    "keywords": [
+      "GLM API料金",
+      "GLM APIコスト",
+      "GLM API割引",
+      "Zhipu AI料金",
+      "GLM-4料金",
+      "CogVideoX料金",
+      "CogView料金",
+      "お手頃GLM API"
+    ]
+  },
+  "docs": {
+    "title": "APIドキュメント概要 - GLM APIプロキシ",
+    "description": "GLM APIプロキシサービスのドキュメント概要。テキスト生成、マルチモーダルビジョン、画像生成、動画生成、音声モデル、エンベディング、ウェブ検索など、多様なAI機能を提供。",
+    "keywords": [
+      "GLM APIドキュメント",
+      "GLM APIドキュメント",
+      "GLM APIリファレンス",
+      "GLM APIガイド"
+    ]
+  },
+  "docsText": {
+    "title": "テキスト生成 (Chat Completions) - GLM APIドキュメント",
+    "description": "GLM-4シリーズ大規模言語モデルのチャット補完インターフェース。OpenAI Chat Completions API形式に対応し、ストリーミングおよびファンクションコーリングをサポート。",
+    "keywords": ["GLM Chat API", "GLMテキスト生成", "GLM Chat Completions", "GLM-4 LLM API"]
+  },
+  "docsVision": {
+    "title": "マルチモーダル理解 (Vision) - GLM APIドキュメント",
+    "description": "GLM-4Vシリーズのマルチモーダルモデル。画像理解と視覚的質問応答をサポート。",
+    "keywords": ["GLM Vision API", "GLM-4V API", "GLMマルチモーダルAPI", "GLM画像理解"]
+  },
+  "docsImage": {
+    "title": "画像生成 (CogView) - GLM APIドキュメント",
+    "description": "CogViewシリーズのAI画像生成モデル。テキストの説明から高品質な画像を生成。",
+    "keywords": ["CogView API", "GLM画像生成", "CogViewテキストから画像", "AI画像生成API"]
+  },
+  "docsVideo": {
+    "title": "動画生成 (CogVideoX) - GLM APIドキュメント",
+    "description": "CogVideoX AI動画生成モデル。テキストプロンプトから高品質な動画を生成。",
+    "keywords": ["CogVideoX API", "GLM動画生成", "テキストから動画API", "CogVideoX動画"]
+  },
+  "docsVoice": {
+    "title": "音声モデル (GLM-4-Voice) - GLM APIドキュメント",
+    "description": "GLM-4-Voiceエンドツーエンド音声対話モデル。テキスト読み上げをサポート。",
+    "keywords": ["GLM-4-Voice API", "GLM音声API", "GLM TTS", "Zhipu AI音声"]
+  },
+  "docsEmbedding": {
+    "title": "エンベディング (Embedding-3) - GLM APIドキュメント",
+    "description": "テキストエンベディングインターフェース。セマンティック検索およびテキスト類似度計算に対応。",
+    "keywords": ["GLM Embedding API", "Embedding-3 API", "テキストエンベディングAPI", "GLMベクトルAPI"]
+  },
+  "docsTools": {
+    "title": "ウェブ検索 (Tools) - GLM APIドキュメント",
+    "description": "内蔵のウェブ検索およびツール呼び出し機能。リアルタイムの情報取得に対応。",
+    "keywords": ["GLMウェブ検索API", "GLM Tools API", "GLMファンクションコーリング", "GLM検索"]
+  },
+  "glm47Api": {
+    "title": "GLM 4.7 API - GLM-4.7 API統合完全ガイド",
+    "description": "GLM 4.7 APIの包括的ガイド - 128Kコンテキストウィンドウ、高度な推論、コーディング機能を備えたGLM-4.7 APIの統合方法を解説。公式価格から40%オフ。",
+    "keywords": ["GLM 4.7 API", "GLM-4.7 API", "GLM 4.7 APIキー", "GLM API統合", "Zhipu AI API"]
+  },
+  "glmFreeApi": {
+    "title": "GLM無料API - GLM 4.7 APIへの無料アクセス方法",
+    "description": "GLM無料APIアクセスの完全ガイド。無料で利用できるGLMモデル、GLM API無料アクセスの取得方法、GLM-4-Flashや40%割引などのお手頃な代替手段を解説。",
+    "keywords": ["GLM無料API", "GLM 4.7無料API", "GLM API無料", "無料GLM API", "GLM-4-Flash無料"]
+  },
+  "glmApiKey": {
+    "title": "GLM APIキー - GLM APIキーの取得・使用ガイド",
+    "description": "GLM APIキーの取得と使用に関するステップバイステップガイド。開発用のGLM 4.7 APIキーの取得、設定、セキュリティ対策を解説。",
+    "keywords": ["GLM APIキー", "GLM 4.7 APIキー", "Zhipu AI APIキー", "GLM-4 APIキー", "GLM APIキーの取得方法"]
+  },
+  "glm47FlashApi": {
+    "title": "GLM 4.7 Flash API - 高速・無料GLMモデル",
+    "description": "GLM-4.7-Flash APIの完全ガイド。無料で高速なGLM Flashモデルの機能、パフォーマンス、本番アプリケーションでの使用方法を解説。",
+    "keywords": ["GLM 4.7 Flash API", "GLM-4-Flash API", "GLM Flash無料", "高速GLM API", "GLM-4-FlashX"]
+  },
+  "glmCodingPlan": {
+    "title": "GLMコーディングプラン - サブスクリプションプラン＆API比較",
+    "description": "GLMコーディングプランのサブスクリプションオプションと従量制API料金を比較。公式価格から40%オフで最適なプランを見つけましょう。",
+    "keywords": ["GLMコーディングプラン", "GLMサブスクリプション", "GLM APIプラン", "Zhipu AIコーディングプラン", "GLM料金プラン"]
+  }
+}

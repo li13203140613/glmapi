@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import CodeBlock from '@/components/CodeBlock';
 
 interface CodeExample {
@@ -38,6 +39,7 @@ export default function DocPageContent({
   codeExamples,
 }: DocPageContentProps) {
   const [activeTab, setActiveTab] = useState(0);
+  const t = useTranslations('docPage');
 
   const getMethodColor = (method: string) => {
     switch (method.toUpperCase()) {
@@ -56,31 +58,20 @@ export default function DocPageContent({
 
   return (
     <div className="prose prose-gray max-w-none">
-      {/* Header */}
       <h1 className="text-3xl font-bold text-gray-900 mb-3">{title}</h1>
       <p className="text-lg text-gray-600 mb-8">{description}</p>
 
-      {/* Endpoints */}
       {endpoints && endpoints.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">API 端点</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">{t('endpoints')}</h2>
           <div className="space-y-4 not-prose">
             {endpoints.map((endpoint, index) => (
-              <div
-                key={index}
-                className="bg-gray-50 border border-gray-200 rounded-lg p-4"
-              >
+              <div key={index} className="bg-gray-50 border border-gray-200 rounded-lg p-4">
                 <div className="flex flex-wrap items-center gap-3 mb-2">
-                  <span
-                    className={`px-2.5 py-1 text-xs font-semibold rounded border ${getMethodColor(
-                      endpoint.method
-                    )}`}
-                  >
+                  <span className={`px-2.5 py-1 text-xs font-semibold rounded border ${getMethodColor(endpoint.method)}`}>
                     {endpoint.method.toUpperCase()}
                   </span>
-                  <code className="text-sm font-mono text-gray-800">
-                    {endpoint.path}
-                  </code>
+                  <code className="text-sm font-mono text-gray-800">{endpoint.path}</code>
                 </div>
                 <p className="text-sm text-gray-600">{endpoint.description}</p>
               </div>
@@ -89,54 +80,32 @@ export default function DocPageContent({
         </section>
       )}
 
-      {/* Parameters */}
       {parameters && parameters.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">请求参数</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">{t('parameters')}</h2>
           <div className="overflow-x-auto not-prose">
             <table className="min-w-full border border-gray-200 rounded-lg">
               <thead className="bg-gray-50">
                 <tr>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">
-                    参数名
-                  </th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">
-                    类型
-                  </th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">
-                    必填
-                  </th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">
-                    说明
-                  </th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">{t('paramName')}</th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">{t('paramType')}</th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">{t('required')}</th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-b border-gray-200">{t('description')}</th>
                 </tr>
               </thead>
               <tbody className="bg-white">
                 {parameters.map((param, index) => (
-                  <tr
-                    key={index}
-                    className={index !== parameters.length - 1 ? 'border-b border-gray-200' : ''}
-                  >
-                    <td className="px-4 py-3 text-sm">
-                      <code className="text-gray-800 font-mono">{param.name}</code>
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-600">
-                      {param.type}
-                    </td>
+                  <tr key={index} className={index !== parameters.length - 1 ? 'border-b border-gray-200' : ''}>
+                    <td className="px-4 py-3 text-sm"><code className="text-gray-800 font-mono">{param.name}</code></td>
+                    <td className="px-4 py-3 text-sm text-gray-600">{param.type}</td>
                     <td className="px-4 py-3 text-sm">
                       {param.required ? (
-                        <span className="px-2 py-1 text-xs font-semibold bg-red-100 text-red-800 rounded">
-                          必填
-                        </span>
+                        <span className="px-2 py-1 text-xs font-semibold bg-red-100 text-red-800 rounded">{t('required')}</span>
                       ) : (
-                        <span className="px-2 py-1 text-xs font-semibold bg-gray-100 text-gray-600 rounded">
-                          可选
-                        </span>
+                        <span className="px-2 py-1 text-xs font-semibold bg-gray-100 text-gray-600 rounded">{t('optional')}</span>
                       )}
                     </td>
-                    <td className="px-4 py-3 text-sm text-gray-600">
-                      {param.description}
-                    </td>
+                    <td className="px-4 py-3 text-sm text-gray-600">{param.description}</td>
                   </tr>
                 ))}
               </tbody>
@@ -145,32 +114,28 @@ export default function DocPageContent({
         </section>
       )}
 
-      {/* Request Example */}
       {requestExample && (
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">请求示例</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">{t('requestExample')}</h2>
           <div className="not-prose">
-            <CodeBlock code={requestExample} language="json" title="请求示例" />
+            <CodeBlock code={requestExample} language="json" title={t('requestExample')} />
           </div>
         </section>
       )}
 
-      {/* Response Example */}
       {responseExample && (
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">响应示例</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">{t('responseExample')}</h2>
           <div className="not-prose">
-            <CodeBlock code={responseExample} language="json" title="响应示例" />
+            <CodeBlock code={responseExample} language="json" title={t('responseExample')} />
           </div>
         </section>
       )}
 
-      {/* Code Examples with Tabs */}
       {codeExamples && codeExamples.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">代码示例</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">{t('codeExamples')}</h2>
           <div className="not-prose">
-            {/* Tabs */}
             <div className="flex flex-wrap gap-2 mb-4 border-b border-gray-200">
               {codeExamples.map((example, index) => (
                 <button
@@ -186,14 +151,9 @@ export default function DocPageContent({
                 </button>
               ))}
             </div>
-
-            {/* Tab Content */}
             <div className="mt-4">
               {codeExamples[activeTab] && (
-                <CodeBlock
-                  code={codeExamples[activeTab].code}
-                  language={codeExamples[activeTab].language}
-                />
+                <CodeBlock code={codeExamples[activeTab].code} language={codeExamples[activeTab].language} />
               )}
             </div>
           </div>

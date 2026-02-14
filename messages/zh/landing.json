@@ -1,0 +1,211 @@
+{
+  "breadcrumb": {
+    "home": "首页"
+  },
+  "glm47Api": {
+    "breadcrumb": "GLM 4.7 API",
+    "hero": {
+      "title": "GLM 4.7 API - 开发者完整指南",
+      "description": "将 GLM 4.7 API 集成到您的应用中所需的一切。从基础设置到高级功能、价格对比和代码示例。"
+    },
+    "whatIs": {
+      "title": "什么是 GLM 4.7 API？",
+      "p1": "GLM 4.7 API（也称为 GLM-4.7 API）是智谱 AI 推出的最新一代 API，提供对强大的 GLM-4.7 语言模型的访问。该 API 使开发者能够将最先进的 AI 能力集成到其应用中。",
+      "p2": "GLM-4.7 代表了中英双语语言模型的重大进步，将先进的推理能力与多项基准测试中的卓越性能相结合。"
+    },
+    "features": {
+      "title": "GLM 4.7 API 功能特性",
+      "items": [
+        { "icon": "brain", "title": "高级推理", "description": "链式思维推理，解决复杂问题" },
+        { "icon": "code", "title": "卓越编程", "description": "生成生产级代码，支持 Python、JavaScript、Java、C++ 等语言" },
+        { "icon": "globe", "title": "多语言支持", "description": "原生中英文支持，同时支持日语、韩语、德语等更多语言" },
+        { "icon": "book", "title": "128K 上下文窗口", "description": "处理多达 128,000 个 tokens——约 200 页文本" }
+      ]
+    },
+    "relatedResources": "相关资源",
+    "cta": {
+      "title": "准备好开始使用 GLM 4.7 API 了吗？",
+      "description": "以官方价格 40% 的优惠获取 GLM-4.7 API 访问权限。留下您的邮箱，我们将在 72 小时内与您联系。"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "什么是 GLM 4.7 API？",
+          "a": "GLM 4.7 API 是智谱 AI 推出的最新一代 API，提供对强大的 GLM-4.7 语言模型的访问，具备高级推理、编程和多语言能力。"
+        },
+        {
+          "q": "GLM 4.7 API 费用是多少？",
+          "a": "通过我们的代理服务，GLM-4-Air 费用为 ¥0.0004/千 tokens，GLM-4-Plus 费用为 ¥0.02/千 tokens——仅为官方价格的 40%。"
+        },
+        {
+          "q": "GLM 4.7 API 是否兼容 OpenAI？",
+          "a": "是的，GLM-4.7 API 完全兼容 OpenAI Chat Completions API 格式，可以轻松集成到现有应用中。"
+        }
+      ]
+    }
+  },
+  "glmFreeApi": {
+    "breadcrumb": "GLM 免费 API",
+    "hero": {
+      "title": "GLM 免费 API - 免费使用 GLM 4.7 API",
+      "description": "了解如何免费使用 GLM API、哪些模型免费，以及生产应用的最佳实惠替代方案。"
+    },
+    "isFree": {
+      "title": "GLM API 免费吗？",
+      "p1": "是的！GLM API 确实提供某些模型的免费访问。智谱 AI 提供完全免费的 GLM-4-Flash 模型。",
+      "whatsFreTitle": "哪些是免费的？",
+      "whatsNotFreeTitle": "哪些不是免费的？"
+    },
+    "howToGet": {
+      "title": "如何获取 GLM 免费 API 访问权限",
+      "steps": [
+        { "title": "注册账号", "description": "访问 open.bigmodel.cn 并创建免费账号。" },
+        { "title": "获取 API Key", "description": "前往 API Key 管理页面并生成新密钥。" },
+        { "title": "发起首次 API 调用", "description": "使用免费的 GLM-4-Flash 模型开始开发。" },
+        { "title": "监控使用量", "description": "在仪表盘中跟踪免费额度使用情况。" }
+      ]
+    },
+    "affordable": {
+      "title": "实惠替代方案：所有 GLM 模型 40% 折扣",
+      "description": "通过我们的代理服务，以仅需官方价格 40% 的价格访问所有 GLM 模型。"
+    },
+    "relatedResources": "相关资源",
+    "cta": {
+      "title": "准备从免费版升级了吗？",
+      "description": "以官方价格 40% 的优惠无限使用所有 GLM 模型。留下您的邮箱，我们将在 72 小时内为您设置账号。"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "有 GLM 免费 API 吗？",
+          "a": "有，GLM-4-Flash 完全免费。我们的代理服务以官方价格的 40% 提供付费模型。"
+        },
+        {
+          "q": "使用 GLM API 最便宜的方式是什么？",
+          "a": "最便宜的付费选项是我们的代理服务，仅为官方价格的 40%，每次 API 调用节省 60%。"
+        }
+      ]
+    }
+  },
+  "glmApiKey": {
+    "breadcrumb": "GLM API Key",
+    "hero": {
+      "title": "GLM API Key - 完整设置指南",
+      "description": "关于获取、配置和安全使用 GLM API Key 的一切。"
+    },
+    "whatIs": {
+      "title": "什么是 GLM API Key？",
+      "p1": "GLM API Key 是一个唯一的身份认证令牌，允许您以编程方式访问智谱 AI 的 GLM 模型。",
+      "p2": "您的密钥用于认证请求并追踪使用量计费。"
+    },
+    "howToGet": {
+      "title": "如何获取 GLM API Key",
+      "proxy": {
+        "title": "方式一：我们的代理服务（推荐 - 40% 折扣）",
+        "steps": [
+          "在我们的网站上留下您的邮箱",
+          "我们将在 72 小时内与您联系",
+          "以官方价格的 40% 获取您的 API Key",
+          "立即开始使用所有 GLM API"
+        ]
+      },
+      "official": {
+        "title": "方式二：智谱 AI 官方平台",
+        "steps": [
+          "在 open.bigmodel.cn 注册账号",
+          "完成身份验证",
+          "前往 API Key 管理页面",
+          "生成新的 API Key"
+        ]
+      }
+    },
+    "security": {
+      "title": "GLM API Key 最佳实践",
+      "items": [
+        { "bold": "切勿在客户端代码中暴露密钥", "text": "始终将其保留在服务器端。" },
+        { "bold": "使用环境变量", "text": "将凭证存储在 .env 文件中，切勿硬编码。" },
+        { "bold": "定期轮换密钥", "text": "定期生成新凭证以提高安全性。" },
+        { "bold": "监控使用量", "text": "跟踪 API 使用情况以检测未授权访问。" }
+      ]
+    },
+    "relatedResources": "相关资源",
+    "cta": {
+      "title": "准备好在 GLM API 费用上节省 60% 了吗？",
+      "description": "使用我们的代理服务，享受相同的 API、相同的功能、更优的价格。"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "如何获取 GLM API Key？",
+          "a": "在智谱 AI 官方平台注册，或使用我们的代理服务以官方价格 40% 获取密钥。"
+        },
+        {
+          "q": "GLM API Key 免费吗？",
+          "a": "GLM 为新用户提供有限的免费额度。我们的代理服务提供最实惠的付费选项。"
+        },
+        {
+          "q": "一个密钥可以使用所有服务吗？",
+          "a": "是的，一个密钥即可访问所有服务，包括文本、视觉、图像、视频和语音。"
+        }
+      ]
+    }
+  },
+  "glm47FlashApi": {
+    "breadcrumb": "GLM 4.7 Flash API",
+    "hero": {
+      "title": "GLM 4.7 Flash API - 快速免费的 GLM 模型",
+      "description": "GLM-4.7-Flash API 完整指南。了解免费、快速的 Flash 模型功能、性能分析和生产用例。"
+    },
+    "whatIs": {
+      "title": "什么是 GLM-4-Flash？",
+      "p1": "GLM-4-Flash 是 GLM-4 系列中的免费高速模型。它针对快速响应进行了优化，同时保持良好的输出质量。",
+      "p2": "GLM-4-FlashX 是增强版本，推理速度更快。"
+    },
+    "relatedResources": "相关资源",
+    "cta": {
+      "title": "需要更强大的模型？高级模型享 40% 折扣",
+      "description": "从 GLM-4-Flash 升级到高级模型，享受官方价格 40% 的优惠。"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "GLM-4-Flash 真的免费吗？",
+          "a": "是的，GLM-4-Flash 完全免费，有合理的速率限制，适合开发和测试使用。"
+        },
+        {
+          "q": "Flash 和 FlashX 有什么区别？",
+          "a": "GLM-4-FlashX 提供更快的推理速度，费用极低，仅 ¥0.0001/千 tokens（我们的价格）。"
+        }
+      ]
+    }
+  },
+  "glmCodingPlan": {
+    "breadcrumb": "GLM 编程方案",
+    "hero": {
+      "title": "GLM 编程方案 - 订阅方案与 API 对比",
+      "description": "对比 GLM 编程方案订阅选项与按量付费 API 定价。找到最适合您开发需求的方案。"
+    },
+    "whatIs": {
+      "title": "什么是 GLM 编程方案？",
+      "p1": "GLM 编程方案是指智谱 AI 为使用 GLM 模型进行编程任务的开发者提供的各种订阅和定价方案。",
+      "p2": "了解这些方案有助于您为开发工作流选择最具性价比的选项。"
+    },
+    "relatedResources": "相关资源",
+    "cta": {
+      "title": "获取 GLM API 最优惠的价格",
+      "description": "我们的代理服务为所有 GLM 模型提供 40% 折扣，无需订阅。按量付费，用多少付多少。"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "开发者最好的 GLM 方案是什么？",
+          "a": "对于大多数开发者而言，我们 40% 折扣的按量付费代理服务是最具性价比的选择。"
+        },
+        {
+          "q": "使用 GLM API 需要订阅吗？",
+          "a": "不需要，我们的代理服务提供按量付费定价，无需任何订阅承诺。"
+        }
+      ]
+    }
+  }
+}

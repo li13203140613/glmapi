@@ -1,0 +1,90 @@
+{
+  "text": {
+    "title": "文本生成 (Chat Completions)",
+    "description": "GLM-4 系列大语言模型对话补全接口。完全兼容 OpenAI Chat Completions API 格式，支持流式输出和函数调用。",
+    "endpoints": {
+      "chatcompletion": "创建对话补全"
+    },
+    "parameters": {
+      "model": "模型名称：GLM-4-Plus, GLM-4-Air, GLM-4-AirX, GLM-4-Long, GLM-4-FlashX, GLM-4-Flash",
+      "messages": "对话消息数组，每条包含 role 和 content",
+      "temperature": "采样温度，范围 0-1，默认 0.7",
+      "max_tokens": "生成的最大 token 数量",
+      "stream": "是否使用流式输出，默认 false",
+      "top_p": "核采样参数，默认 0.9",
+      "tools": "可用工具列表（函数调用）"
+    }
+  },
+  "vision": {
+    "title": "多模态理解 (Vision)",
+    "description": "GLM-4V 系列多模态模型，支持图像理解和视觉问答。",
+    "endpoints": {
+      "chatcompletion": "多模态对话"
+    },
+    "parameters": {
+      "model": "模型名称：GLM-4V, GLM-4V-Plus",
+      "messages": "消息列表，content 可包含文本和 image_url",
+      "temperature": "采样温度，默认 0.7",
+      "max_tokens": "生成的最大 token 数量"
+    }
+  },
+  "image": {
+    "title": "图像生成 (CogView)",
+    "description": "CogView 系列 AI 图像生成模型，支持文本生成图像。",
+    "endpoints": {
+      "imageGeneration": "生成图像"
+    },
+    "parameters": {
+      "model": "模型名称：CogView-3, CogView-3-Plus",
+      "prompt": "图像描述文本",
+      "size": "图像尺寸，如 1024x1024，默认 1024x1024",
+      "n": "生成图像数量，默认 1"
+    }
+  },
+  "video": {
+    "title": "视频生成 (CogVideoX)",
+    "description": "CogVideoX AI 视频生成模型，支持文本生成视频。",
+    "endpoints": {
+      "videoGeneration": "创建视频生成任务"
+    },
+    "parameters": {
+      "model": "模型名称：CogVideoX",
+      "prompt": "视频描述文本"
+    }
+  },
+  "voice": {
+    "title": "语音模型 (GLM-4-Voice)",
+    "description": "GLM-4-Voice 语音对话模型，支持文字转语音。",
+    "endpoints": {
+      "tts": "文字转语音"
+    },
+    "parameters": {
+      "model": "模型名称：GLM-4-Voice",
+      "input": "需要转换为语音的文本",
+      "voice": "语音选择，默认 alloy"
+    }
+  },
+  "embedding": {
+    "title": "向量嵌入 (Embedding-3)",
+    "description": "文本向量嵌入接口，用于语义搜索和文本相似度计算。",
+    "endpoints": {
+      "embeddings": "文本嵌入"
+    },
+    "parameters": {
+      "model": "模型名称：Embedding-3",
+      "input": "需要嵌入的文本或文本数组"
+    }
+  },
+  "tools": {
+    "title": "联网搜索 (Tools)",
+    "description": "联网搜索工具，支持实时网络信息检索。",
+    "endpoints": {
+      "chatcompletion": "带工具的对话"
+    },
+    "parameters": {
+      "model": "支持工具调用的模型",
+      "messages": "对话消息",
+      "tools": "工具定义列表，包括 web_search"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "pricing": "Pricing",
+    "docs": "API Docs",
+    "codingPlan": "Coding Plan",
+    "getStarted": "Get Started"
+  },
+  "footer": {
+    "description": "GLM API at 40% of official price, stable and reliable API proxy service for Zhipu AI.",
+    "product": "Product",
+    "apiCapabilities": "API Capabilities",
+    "guides": "Popular Guides",
+    "pricing": "Pricing",
+    "docs": "API Docs",
+    "textGeneration": "Text Generation",
+    "visionModel": "Vision Model",
+    "videoGeneration": "Video Generation",
+    "imageGeneration": "Image Generation",
+    "voiceModel": "Voice Model",
+    "embedding": "Embedding",
+    "webSearch": "Web Search",
+    "copyright": "GLM API Proxy. All rights reserved.",
+    "tagline": "GLM API Proxy | Zhipu AI API | GLM-4 API | Affordable GLM API"
+  },
+  "emailForm": {
+    "placeholder": "Enter your email address",
+    "submit": "Get Started",
+    "submitting": "Submitting...",
+    "success": "Submitted successfully! We will contact you within 72 hours.",
+    "error": "Submission failed. Please try again later.",
+    "networkError": "Network error. Please try again later."
+  },
+  "codeBlock": {
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "pricingTable": {
+    "model": "Model",
+    "officialPrice": "Official Price",
+    "ourPrice": "Our Price",
+    "save": "Save",
+    "savePercent": "Save {percent}%"
+  },
+  "docsSidebar": {
+    "overview": "API Overview",
+    "apiDocs": "API Documentation",
+    "text": "Text Generation",
+    "vision": "Vision Model",
+    "image": "Image Generation",
+    "video": "Video Generation",
+    "voice": "Voice Model",
+    "embedding": "Embedding",
+    "tools": "Web Search"
+  },
+  "docPage": {
+    "endpoints": "API Endpoints",
+    "parameters": "Request Parameters",
+    "paramName": "Parameter",
+    "paramType": "Type",
+    "required": "Required",
+    "optional": "Optional",
+    "description": "Description",
+    "requestExample": "Request Example",
+    "responseExample": "Response Example",
+    "codeExamples": "Code Examples"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "\u4e2d\u6587",
+    "ja": "\u65e5\u672c\u8a9e",
+    "ko": "\ud55c\uad6d\uc5b4",
+    "de": "Deutsch",
+    "es": "Espa\u00f1ol"
+  }
+}

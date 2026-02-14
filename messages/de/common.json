@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "pricing": "Preise",
+    "docs": "API-Dokumentation",
+    "codingPlan": "Coding-Tarif",
+    "getStarted": "Jetzt starten"
+  },
+  "footer": {
+    "description": "GLM API zu 40% des offiziellen Preises, stabiler und zuverlässiger API-Proxy-Dienst für Zhipu AI.",
+    "product": "Produkt",
+    "apiCapabilities": "API-Funktionen",
+    "guides": "Beliebte Anleitungen",
+    "pricing": "Preise",
+    "docs": "API-Dokumentation",
+    "textGeneration": "Textgenerierung",
+    "visionModel": "Vision-Modell",
+    "videoGeneration": "Videogenerierung",
+    "imageGeneration": "Bildgenerierung",
+    "voiceModel": "Sprachmodell",
+    "embedding": "Embedding",
+    "webSearch": "Websuche",
+    "copyright": "GLM API Proxy. Alle Rechte vorbehalten.",
+    "tagline": "GLM API Proxy | Zhipu AI API | GLM-4 API | Günstiges GLM API"
+  },
+  "emailForm": {
+    "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "submit": "Jetzt starten",
+    "submitting": "Wird gesendet...",
+    "success": "Erfolgreich gesendet! Wir kontaktieren Sie innerhalb von 72 Stunden.",
+    "error": "Übermittlung fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+    "networkError": "Netzwerkfehler. Bitte versuchen Sie es später erneut."
+  },
+  "codeBlock": {
+    "copy": "Kopieren",
+    "copied": "Kopiert!"
+  },
+  "pricingTable": {
+    "model": "Modell",
+    "officialPrice": "Offizieller Preis",
+    "ourPrice": "Unser Preis",
+    "save": "Sparen",
+    "savePercent": "{percent}% sparen"
+  },
+  "docsSidebar": {
+    "overview": "API-Übersicht",
+    "apiDocs": "API-Dokumentation",
+    "text": "Textgenerierung",
+    "vision": "Vision-Modell",
+    "image": "Bildgenerierung",
+    "video": "Videogenerierung",
+    "voice": "Sprachmodell",
+    "embedding": "Embedding",
+    "tools": "Websuche"
+  },
+  "docPage": {
+    "endpoints": "API-Endpunkte",
+    "parameters": "Anfrageparameter",
+    "paramName": "Parameter",
+    "paramType": "Typ",
+    "required": "Erforderlich",
+    "optional": "Optional",
+    "description": "Beschreibung",
+    "requestExample": "Anfrage-Beispiel",
+    "responseExample": "Antwort-Beispiel",
+    "codeExamples": "Code-Beispiele"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어",
+    "de": "Deutsch",
+    "es": "Español"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "text": {
+    "title": "텍스트 생성 (Chat Completions)",
+    "description": "GLM-4 시리즈 대규모 언어 모델 채팅 완성 인터페이스. OpenAI Chat Completions API 형식과 완벽하게 호환되며, 스트리밍 출력 및 함수 호출을 지원합니다.",
+    "endpoints": {
+      "chatcompletion": "채팅 완성 생성"
+    },
+    "parameters": {
+      "model": "모델명: GLM-4-Plus, GLM-4-Air, GLM-4-AirX, GLM-4-Long, GLM-4-FlashX, GLM-4-Flash",
+      "messages": "대화 메시지 배열, 각 메시지에는 role과 content가 포함됩니다",
+      "temperature": "샘플링 온도, 범위 0-1, 기본값 0.7",
+      "max_tokens": "생성할 최대 토큰 수",
+      "stream": "스트리밍 출력 사용 여부, 기본값 false",
+      "top_p": "핵 샘플링 파라미터, 기본값 0.9",
+      "tools": "사용 가능한 도구 목록 (함수 호출)"
+    }
+  },
+  "vision": {
+    "title": "멀티모달 이해 (Vision)",
+    "description": "GLM-4V 시리즈 멀티모달 모델로 이미지 이해 및 시각적 질의응답을 지원합니다.",
+    "endpoints": {
+      "chatcompletion": "멀티모달 대화"
+    },
+    "parameters": {
+      "model": "모델명: GLM-4V, GLM-4V-Plus",
+      "messages": "메시지 목록, content에 텍스트와 image_url을 포함할 수 있습니다",
+      "temperature": "샘플링 온도, 기본값 0.7",
+      "max_tokens": "생성할 최대 토큰 수"
+    }
+  },
+  "image": {
+    "title": "이미지 생성 (CogView)",
+    "description": "CogView 시리즈 AI 이미지 생성 모델로 텍스트-이미지 변환을 지원합니다.",
+    "endpoints": {
+      "imageGeneration": "이미지 생성"
+    },
+    "parameters": {
+      "model": "모델명: CogView-3, CogView-3-Plus",
+      "prompt": "이미지 설명 텍스트",
+      "size": "이미지 크기, 예: 1024x1024, 기본값 1024x1024",
+      "n": "생성할 이미지 수, 기본값 1"
+    }
+  },
+  "video": {
+    "title": "비디오 생성 (CogVideoX)",
+    "description": "CogVideoX AI 비디오 생성 모델로 텍스트-비디오 변환을 지원합니다.",
+    "endpoints": {
+      "videoGeneration": "비디오 생성 작업 생성"
+    },
+    "parameters": {
+      "model": "모델명: CogVideoX",
+      "prompt": "비디오 설명 텍스트"
+    }
+  },
+  "voice": {
+    "title": "음성 모델 (GLM-4-Voice)",
+    "description": "GLM-4-Voice 음성 대화 모델로 텍스트 음성 변환을 지원합니다.",
+    "endpoints": {
+      "tts": "텍스트 음성 변환"
+    },
+    "parameters": {
+      "model": "모델명: GLM-4-Voice",
+      "input": "음성으로 변환할 텍스트",
+      "voice": "음성 선택, 기본값 alloy"
+    }
+  },
+  "embedding": {
+    "title": "임베딩 (Embedding-3)",
+    "description": "시맨틱 검색 및 텍스트 유사도 계산을 위한 텍스트 임베딩 인터페이스.",
+    "endpoints": {
+      "embeddings": "텍스트 임베딩"
+    },
+    "parameters": {
+      "model": "모델명: Embedding-3",
+      "input": "임베딩할 텍스트 또는 텍스트 배열"
+    }
+  },
+  "tools": {
+    "title": "웹 검색 (Tools)",
+    "description": "실시간 웹 정보 검색을 지원하는 웹 검색 도구.",
+    "endpoints": {
+      "chatcompletion": "도구 포함 대화"
+    },
+    "parameters": {
+      "model": "도구 호출을 지원하는 모델",
+      "messages": "대화 메시지",
+      "tools": "web_search를 포함한 도구 정의 목록"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "homepage": {
+    "title": "GLM API 代理 - 官方价格的 40% | GLM API Proxy",
+    "titleTemplate": "%s | GLM API Proxy",
+    "description": "GLM API 官方代理服务，仅需官方价格的 40%。提供文本生成、多模态视觉理解、视频生成、图像生成、语音模型、向量嵌入和联网搜索——完整的智谱 AI 能力。稳定可靠，完全兼容官方 GLM API 端点。",
+    "keywords": [
+      "GLM API",
+      "GLM API 代理",
+      "GLM API 代理服务",
+      "智谱 AI",
+      "智谱 AI API",
+      "GLM-4 API",
+      "GLM-4.7 API",
+      "GLM-4V API",
+      "CogView API",
+      "CogVideoX API",
+      "GLM-4-Voice",
+      "AI API",
+      "低价 AI API",
+      "GLM API 折扣"
+    ]
+  },
+  "pricing": {
+    "title": "价格 - GLM API Proxy",
+    "description": "GLM API 代理服务价格表，仅需官方价格的 40%。文本生成、多模态视觉、视频生成、图像生成、语音模型等智谱 AI 能力的透明定价。",
+    "keywords": [
+      "GLM API 价格",
+      "GLM API 费用",
+      "GLM API 折扣",
+      "智谱 AI 价格",
+      "GLM-4 价格",
+      "CogVideoX 价格",
+      "CogView 价格",
+      "低价 GLM API"
+    ]
+  },
+  "docs": {
+    "title": "API 文档概览 - GLM API Proxy",
+    "description": "GLM API 代理服务文档概览，提供文本生成、多模态视觉、图像生成、视频生成、语音模型、向量嵌入和联网搜索等多种 AI 能力。",
+    "keywords": [
+      "GLM API 文档",
+      "GLM API 文档",
+      "GLM API 参考",
+      "GLM API 指南"
+    ]
+  },
+  "docsText": {
+    "title": "文本生成 (Chat Completions) - GLM API 文档",
+    "description": "GLM-4 系列大语言模型对话补全接口。兼容 OpenAI Chat Completions API 格式，支持流式输出和函数调用。",
+    "keywords": ["GLM 对话 API", "GLM 文本生成", "GLM Chat Completions", "GLM-4 大模型 API"]
+  },
+  "docsVision": {
+    "title": "多模态理解 (Vision) - GLM API 文档",
+    "description": "GLM-4V 系列多模态模型，支持图像理解和视觉问答。",
+    "keywords": ["GLM 视觉 API", "GLM-4V API", "GLM 多模态 API", "GLM 图像理解"]
+  },
+  "docsImage": {
+    "title": "图像生成 (CogView) - GLM API 文档",
+    "description": "CogView 系列 AI 图像生成模型。根据文字描述生成高质量图像。",
+    "keywords": ["CogView API", "GLM 图像生成", "CogView 文生图", "AI 图像生成 API"]
+  },
+  "docsVideo": {
+    "title": "视频生成 (CogVideoX) - GLM API 文档",
+    "description": "CogVideoX AI 视频生成模型。根据文字描述生成高质量视频。",
+    "keywords": ["CogVideoX API", "GLM 视频生成", "文生视频 API", "CogVideoX 视频"]
+  },
+  "docsVoice": {
+    "title": "语音模型 (GLM-4-Voice) - GLM API 文档",
+    "description": "GLM-4-Voice 端到端语音对话模型，支持文字转语音。",
+    "keywords": ["GLM-4-Voice API", "GLM 语音 API", "GLM TTS", "智谱 AI 语音"]
+  },
+  "docsEmbedding": {
+    "title": "向量嵌入 (Embedding-3) - GLM API 文档",
+    "description": "文本向量嵌入接口，用于语义搜索和文本相似度计算。",
+    "keywords": ["GLM Embedding API", "Embedding-3 API", "文本嵌入 API", "GLM 向量 API"]
+  },
+  "docsTools": {
+    "title": "联网搜索 (Tools) - GLM API 文档",
+    "description": "内置联网搜索和工具调用功能，支持实时网络信息检索。",
+    "keywords": ["GLM 联网搜索 API", "GLM Tools API", "GLM 函数调用", "GLM 搜索"]
+  },
+  "glm47Api": {
+    "title": "GLM 4.7 API - GLM-4.7 API 集成完整指南",
+    "description": "GLM 4.7 API 完整指南 - 了解如何集成 GLM-4.7 API，拥有 128K 上下文窗口、高级推理和编程能力。享受官方价格 40% 的优惠。",
+    "keywords": ["GLM 4.7 API", "GLM-4.7 API", "GLM 4.7 API key", "GLM API 集成", "智谱 AI API"]
+  },
+  "glmFreeApi": {
+    "title": "GLM 免费 API - 如何免费使用 GLM 4.7 API",
+    "description": "GLM 免费 API 使用完整指南。了解哪些 GLM 模型免费、如何获取 GLM API 免费访问权限，以及 GLM-4-Flash 和我们 40% 折扣的实惠替代方案。",
+    "keywords": ["GLM 免费 API", "GLM 4.7 免费 API", "GLM API 免费", "免费 GLM API", "GLM-4-Flash 免费"]
+  },
+  "glmApiKey": {
+    "title": "GLM API Key - 如何获取和使用 GLM API Key",
+    "description": "获取和使用 GLM API Key 的分步指南。了解如何获取、配置和保护您的 GLM 4.7 API Key 用于开发。",
+    "keywords": ["GLM API key", "GLM 4.7 API key", "智谱 AI API key", "GLM-4 API key", "如何获取 GLM API key"]
+  },
+  "glm47FlashApi": {
+    "title": "GLM 4.7 Flash API - 快速免费的 GLM 模型",
+    "description": "GLM-4.7-Flash API 完整指南。了解免费、快速的 GLM Flash 模型的功能、性能，以及如何将其用于生产应用。",
+    "keywords": ["GLM 4.7 Flash API", "GLM-4-Flash API", "GLM Flash 免费", "快速 GLM API", "GLM-4-FlashX"]
+  },
+  "glmCodingPlan": {
+    "title": "GLM 编程方案 - 订阅方案与 API 对比",
+    "description": "对比 GLM 编程方案订阅选项与按量付费 API 定价。以官方价格 40% 的优惠找到最适合您开发需求的方案。",
+    "keywords": ["GLM 编程方案", "GLM 订阅", "GLM API 方案", "智谱 AI 编程方案", "GLM 定价方案"]
+  }
+}

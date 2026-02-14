@@ -1,0 +1,162 @@
+{
+  "hero": {
+    "title": "GLM API 代理服务",
+    "subtitle": "官方价格的 40% - 稳定可靠",
+    "description": "以仅需{pricingLink}的 40% 的价格，访问智谱 AI 全套能力——GLM-4.7 文本生成、GLM-4V 多模态理解、CogView 图像生成、CogVideoX 视频生成、GLM-4-Voice 等。稳定、快速，完全兼容所有端点。",
+    "pricingLinkText": "官方价格",
+    "emailHint": "留下您的邮箱，我们将在 72 小时内与您联系"
+  },
+  "features": {
+    "sectionTitle": "为什么选择我们的 GLM API 服务",
+    "items": [
+      {
+        "icon": "money",
+        "title": "官方价格的 40%",
+        "description": "GLM API 定价仅为官方价格的 40%。每次 API 调用节省 60%，同时享有完整的智谱 AI 能力。"
+      },
+      {
+        "icon": "rocket",
+        "title": "稳定可靠",
+        "description": "高可用性、低延迟、7x24 小时运行。您的 GLM API 应用无忧运行。"
+      },
+      {
+        "icon": "plug",
+        "title": "100% 兼容",
+        "description": "完全兼容所有官方 GLM API 端点。无需修改代码——只需替换 API Key 即可使用。"
+      }
+    ]
+  },
+  "capabilities": {
+    "sectionTitle": "完整的智谱 AI 能力",
+    "subtitle": "一个 GLM API Key 解锁所有 AI 服务",
+    "items": [
+      {
+        "icon": "chat",
+        "title": "文本生成",
+        "subtitle": "GLM-4.7 对话",
+        "description": "强大的 GLM-4.7 对话模型，支持长上下文、多轮对话和函数调用",
+        "href": "/docs/text"
+      },
+      {
+        "icon": "eye",
+        "title": "多模态理解",
+        "subtitle": "GLM-4V 视觉",
+        "description": "GLM-4V 视觉语言模型，支持图像理解、OCR 和视觉问答",
+        "href": "/docs/vision"
+      },
+      {
+        "icon": "image",
+        "title": "图像生成",
+        "subtitle": "CogView",
+        "description": "CogView 文生图模型，高质量图像生成，多种风格可选",
+        "href": "/docs/image"
+      },
+      {
+        "icon": "video",
+        "title": "视频生成",
+        "subtitle": "CogVideoX",
+        "description": "CogVideoX 视频生成模型，通过文本或图像创建高质量视频",
+        "href": "/docs/video"
+      },
+      {
+        "icon": "microphone",
+        "title": "语音模型",
+        "subtitle": "GLM-4-Voice",
+        "description": "GLM-4-Voice 端到端语音模型，支持语音对话和语音理解",
+        "href": "/docs/voice"
+      },
+      {
+        "icon": "search",
+        "title": "联网搜索与工具",
+        "subtitle": "联网搜索与工具",
+        "description": "内置联网搜索、代码解释器等工具，增强 AI 能力",
+        "href": "/docs/tools"
+      }
+    ]
+  },
+  "pricingPreview": {
+    "title": "GLM API 价格 - 官方的 40%",
+    "subtitle": "所有 GLM API 价格均为官方价格的 40%",
+    "viewFull": "查看完整 GLM API 价格",
+    "items": [
+      {
+        "model": "GLM-4-Air",
+        "type": "文本生成",
+        "officialPrice": "¥0.001/千 tokens",
+        "ourPrice": "¥0.0004/千 tokens"
+      },
+      {
+        "model": "GLM-4V-Plus",
+        "type": "多模态视觉",
+        "officialPrice": "¥0.01/千 tokens",
+        "ourPrice": "¥0.004/千 tokens"
+      },
+      {
+        "model": "CogVideoX",
+        "type": "视频生成",
+        "officialPrice": "¥1.00/视频",
+        "ourPrice": "¥0.40/视频"
+      }
+    ]
+  },
+  "resources": {
+    "sectionTitle": "资源与指南",
+    "items": [
+      {
+        "title": "GLM 4.7 API 完整指南",
+        "description": "了解 GLM-4.7 的功能、特性和集成指南。",
+        "href": "/glm-4-7-api"
+      },
+      {
+        "title": "GLM 免费 API",
+        "description": "探索免费 GLM 模型和最实惠的访问方案。",
+        "href": "/glm-free-api"
+      },
+      {
+        "title": "GLM API Key 指南",
+        "description": "获取和配置 GLM API Key 的分步教程。",
+        "href": "/glm-api-key"
+      },
+      {
+        "title": "GLM 4.7 Flash API",
+        "description": "快速、免费的 GLM 模型，适合大批量和预算敏感的应用。",
+        "href": "/glm-4-7-flash-api"
+      },
+      {
+        "title": "GLM 编程方案",
+        "description": "对比 GLM 编程方案订阅与按量付费 API 定价。",
+        "href": "/glm-coding-plan"
+      },
+      {
+        "title": "GLM API 价格",
+        "description": "所有 GLM 模型和能力的完整价格表。",
+        "href": "/pricing"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "常见问题",
+    "items": [
+      {
+        "q": "什么是 GLM API？",
+        "a": "GLM API 是智谱 AI 提供的官方 API 服务，可访问其 AI 模型套件，包括用于文本生成的 GLM-4.7、用于多模态理解的 GLM-4V、用于图像生成的 CogView 以及用于视频生成的 CogVideoX。我们的代理服务以官方价格的 40% 提供完整访问。"
+      },
+      {
+        "q": "GLM API 费用是多少？",
+        "a": "我们的 GLM API 价格为官方价格的 40%。例如，GLM-4-Air 费用为 ¥0.0004/千 tokens（官方价格 ¥0.001），GLM-4V-Plus 费用为 ¥0.004/千 tokens（官方价格 ¥0.01）。详见完整价格表。"
+      },
+      {
+        "q": "如何获取 GLM API Key？",
+        "a": "要通过我们的代理服务获取 GLM API Key，只需在我们的网站上提交您的邮箱地址。我们将在 72 小时内与您联系，为您设置折扣价 API 访问权限。"
+      },
+      {
+        "q": "GLM API 是否兼容官方端点？",
+        "a": "是的，我们的 GLM API 代理完全兼容智谱 AI 官方 API 端点。您可以直接替换使用，无需修改代码。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "准备好开始了吗？",
+    "description": "留下您的邮箱，我们将在 72 小时内与您联系，为您设置官方价格 40% 的 GLM API 访问权限。"
+  }
+}

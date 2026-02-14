@@ -1,0 +1,59 @@
+{
+  "overview": {
+    "title": "GLM API Documentation",
+    "description": "Welcome to the GLM (Zhipu AI) API proxy service. This documentation provides detailed instructions for all available API endpoints, including request parameters, response formats, and code examples."
+  },
+  "baseUrl": {
+    "title": "Base URL",
+    "url": "https://your-proxy-domain.com/v1",
+    "description": "All API requests should be sent to the base URL above, followed by the specific endpoint path."
+  },
+  "auth": {
+    "title": "Authentication",
+    "description": "All API requests require a valid Bearer Token in the request header:",
+    "code": "Authorization: Bearer YOUR_API_KEY",
+    "warning": "Please keep your API key secure and do not expose it in client-side code."
+  },
+  "sections": {
+    "title": "API Modules",
+    "text": {
+      "title": "Text Generation",
+      "titleEn": "Chat Completions",
+      "description": "GLM-4 series large language model conversational interface, fully compatible with OpenAI format"
+    },
+    "vision": {
+      "title": "Multimodal Understanding",
+      "titleEn": "Vision",
+      "description": "GLM-4V series supporting image understanding and visual question answering"
+    },
+    "image": {
+      "title": "Image Generation",
+      "titleEn": "CogView",
+      "description": "CogView series AI image generation models"
+    },
+    "video": {
+      "title": "Video Generation",
+      "titleEn": "CogVideoX",
+      "description": "CogVideoX AI video generation from text prompts"
+    },
+    "voice": {
+      "title": "Voice Model",
+      "titleEn": "GLM-4-Voice",
+      "description": "GLM-4-Voice end-to-end voice dialogue model"
+    },
+    "embedding": {
+      "title": "Embedding",
+      "titleEn": "Embedding",
+      "description": "Text embedding interface for semantic search and similarity computation"
+    },
+    "tools": {
+      "title": "Web Search",
+      "titleEn": "Web Search & Tools",
+      "description": "Built-in web search and tool calling capabilities"
+    }
+  },
+  "help": {
+    "title": "Need Help?",
+    "description": "If you encounter any issues or need technical support, please contact us through the information provided in the documentation."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "Precios Transparentes, 40% del Oficial",
+    "subtitle": "Todos los servicios de GLM API al 40% del precio oficial, sin cargos ocultos, pago por uso."
+  },
+  "currencyNote": "Moneda: Yuan Chino (CNY)",
+  "tables": {
+    "textModels": "Modelos de Generación de Texto - Precios de GLM 4.7 API",
+    "visionModels": "Modelos de Visión Multimodal - Precios de GLM-4V API",
+    "imageModels": "Modelos de Generación de Imágenes - Precios de CogView API",
+    "videoModels": "Modelos de Generación de Video - Precios de CogVideoX API",
+    "voiceModels": "Modelos de Voz - Precios de GLM-4-Voice API",
+    "toolModels": "Herramientas y Embedding - Precios de Herramientas GLM API"
+  },
+  "models": {
+    "textGeneration": "Generación de Texto",
+    "visionUnderstanding": "Comprensión Multimodal",
+    "imageGeneration": "Generación de Imágenes",
+    "videoGeneration": "Generación de Video",
+    "voiceDialogue": "Diálogo por Voz",
+    "embedding": "Embedding",
+    "webSearch": "Búsqueda Web",
+    "millionTokens": "millón de tokens",
+    "perImage": "por imagen",
+    "perVideo": "por video",
+    "free": "Gratuito"
+  },
+  "descriptions": {
+    "glm-4-plus": "Modelo GLM-4 más potente para tareas complejas",
+    "glm-4-long": "Modelo de contexto largo que soporta 1M de tokens",
+    "glm-4-air": "Modelo de alta relación costo-rendimiento, velocidad rápida",
+    "glm-4-airx": "Modelo Air mejorado con mejor rendimiento",
+    "glm-4-flashx": "Modelo de respuesta ultrarrápida",
+    "glm-4-flash": "Modelo rápido gratuito",
+    "glm-4v-plus": "Modelo multimodal mejorado con comprensión de imágenes",
+    "glm-4v": "Modelo multimodal para comprensión de imagen y texto",
+    "cogview-3-plus": "Modelo de generación de imágenes de alta calidad",
+    "cogview-3": "Modelo de generación rápida de imágenes",
+    "cogvideox": "Modelo de generación de video con IA",
+    "glm-4-voice": "Modelo de diálogo por voz",
+    "embedding-3": "Modelo de embedding de texto",
+    "web-search-pro": "Herramienta de búsqueda web"
+  },
+  "notes": {
+    "title": "Notas sobre Precios",
+    "items": [
+      "Todos los precios se facturan en tiempo real según el uso real",
+      "Los precios incluyen todas las tarifas de servicio sin cargos ocultos",
+      "Los precios de comparación son los precios oficiales de Zhipu AI; nuestros precios son el 40% del oficial",
+      "Los endpoints de la API son totalmente compatibles con los endpoints oficiales de GLM, sin necesidad de cambios en el código",
+      "Contáctenos para créditos de prueba gratuitos de GLM API y planes de descuento empresarial"
+    ]
+  },
+  "relatedGuides": {
+    "title": "Guías Relacionadas",
+    "home": { "title": "Inicio de GLM API", "description": "Conozca el servicio proxy de GLM API" },
+    "glm47": { "title": "Guía Completa de GLM 4.7 API", "description": "Características y uso de GLM-4.7" },
+    "free": { "title": "GLM API Gratuita", "description": "Opciones de prueba gratuita de GLM API" },
+    "apiKey": { "title": "Configuración de GLM API Key", "description": "Obtenga su GLM API key" },
+    "flash": { "title": "GLM 4.7 Flash API", "description": "Detalles del modelo Flash de alto rendimiento" },
+    "coding": { "title": "GLM Coding Plan", "description": "Revisión comparativa del plan de desarrollo" }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar?",
+    "description": "Deje su correo electrónico y nos pondremos en contacto con usted en 72 horas para configurar su acceso a GLM API al 40% del precio oficial."
+  }
+}

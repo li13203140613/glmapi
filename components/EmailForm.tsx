@@ -1,11 +1,13 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 
 export default function EmailForm({ source = "homepage" }: { source?: string }) {
   const [email, setEmail] = useState("")
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
   const [message, setMessage] = useState("")
+  const t = useTranslations("emailForm")
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -21,15 +23,15 @@ export default function EmailForm({ source = "homepage" }: { source?: string }) 
       const data = await res.json()
       if (res.ok) {
         setStatus("success")
-        setMessage("提交成功！我们将在 72 小时内联系您。")
+        setMessage(t("success"))
         setEmail("")
       } else {
         setStatus("error")
-        setMessage(data.error || "提交失败，请稍后重试。")
+        setMessage(data.error || t("error"))
       }
     } catch {
       setStatus("error")
-      setMessage("网络错误，请稍后重试。")
+      setMessage(t("networkError"))
     }
   }
 
@@ -40,7 +42,7 @@ export default function EmailForm({ source = "homepage" }: { source?: string }) 
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="输入您的邮箱地址"
+          placeholder={t("placeholder")}
           required
           className="flex-1 rounded-full border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 dark:border-zinc-700 dark:bg-zinc-900 dark:text-white"
         />
@@ -49,7 +51,7 @@ export default function EmailForm({ source = "homepage" }: { source?: string }) 
           disabled={status === "loading"}
           className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 disabled:opacity-50"
         >
-          {status === "loading" ? "提交中..." : "立即获取"}
+          {status === "loading" ? t("submitting") : t("submit")}
         </button>
       </form>
       {status !== "idle" && (

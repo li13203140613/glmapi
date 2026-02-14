@@ -1,0 +1,90 @@
+{
+  "text": {
+    "title": "Textgenerierung (Chat Completions)",
+    "description": "GLM-4 Serien-Sprachmodell Chat-Completion-Schnittstelle. Vollständig kompatibel mit dem OpenAI Chat Completions API-Format, unterstützt Streaming-Ausgabe und Function Calling.",
+    "endpoints": {
+      "chatcompletion": "Chat-Completion erstellen"
+    },
+    "parameters": {
+      "model": "Modellname: GLM-4-Plus, GLM-4-Air, GLM-4-AirX, GLM-4-Long, GLM-4-FlashX, GLM-4-Flash",
+      "messages": "Array von Konversationsnachrichten, jeweils mit Rolle und Inhalt",
+      "temperature": "Sampling-Temperatur, Bereich 0-1, Standard 0,7",
+      "max_tokens": "Maximale Anzahl der zu generierenden Tokens",
+      "stream": "Ob Streaming-Ausgabe verwendet wird, Standard false",
+      "top_p": "Nucleus-Sampling-Parameter, Standard 0,9",
+      "tools": "Verfügbare Tool-Liste (Function Calling)"
+    }
+  },
+  "vision": {
+    "title": "Multimodale Bilderkennung (Vision)",
+    "description": "GLM-4V Serien-Multimodalmodell mit Unterstützung für Bildverständnis und visuelle Fragebeantwortung.",
+    "endpoints": {
+      "chatcompletion": "Multimodaler Dialog"
+    },
+    "parameters": {
+      "model": "Modellname: GLM-4V, GLM-4V-Plus",
+      "messages": "Nachrichtenliste, Inhalt kann Text und image_url enthalten",
+      "temperature": "Sampling-Temperatur, Standard 0,7",
+      "max_tokens": "Maximale Anzahl der zu generierenden Tokens"
+    }
+  },
+  "image": {
+    "title": "Bildgenerierung (CogView)",
+    "description": "CogView Serien-KI-Bildgenerierungsmodell mit Unterstützung für Text-zu-Bild.",
+    "endpoints": {
+      "imageGeneration": "Bild generieren"
+    },
+    "parameters": {
+      "model": "Modellname: CogView-3, CogView-3-Plus",
+      "prompt": "Bildbeschreibungstext",
+      "size": "Bildgröße, z.B. 1024x1024, Standard 1024x1024",
+      "n": "Anzahl der zu generierenden Bilder, Standard 1"
+    }
+  },
+  "video": {
+    "title": "Videogenerierung (CogVideoX)",
+    "description": "CogVideoX KI-Videogenerierungsmodell mit Unterstützung für Text-zu-Video.",
+    "endpoints": {
+      "videoGeneration": "Videogenerierungsaufgabe erstellen"
+    },
+    "parameters": {
+      "model": "Modellname: CogVideoX",
+      "prompt": "Videobeschreibungstext"
+    }
+  },
+  "voice": {
+    "title": "Sprachmodell (GLM-4-Voice)",
+    "description": "GLM-4-Voice Sprachdialogmodell mit Unterstützung für Text-zu-Sprache.",
+    "endpoints": {
+      "tts": "Text-zu-Sprache"
+    },
+    "parameters": {
+      "model": "Modellname: GLM-4-Voice",
+      "input": "Text, der in Sprache umgewandelt werden soll",
+      "voice": "Stimmauswahl, Standard alloy"
+    }
+  },
+  "embedding": {
+    "title": "Embedding (Embedding-3)",
+    "description": "Text-Embedding-Schnittstelle für semantische Suche und Berechnung von Textähnlichkeiten.",
+    "endpoints": {
+      "embeddings": "Text-Embedding"
+    },
+    "parameters": {
+      "model": "Modellname: Embedding-3",
+      "input": "Text oder Array von Texten zum Einbetten"
+    }
+  },
+  "tools": {
+    "title": "Websuche (Tools)",
+    "description": "Websuche-Tool mit Unterstützung für Echtzeit-Webinformationsabruf.",
+    "endpoints": {
+      "chatcompletion": "Dialog mit Tools"
+    },
+    "parameters": {
+      "model": "Modell mit Tool-Calling-Unterstützung",
+      "messages": "Dialognachrichten",
+      "tools": "Tool-Definitionsliste, einschließlich web_search"
+    }
+  }
+}
