@@ -1,5 +1,4 @@
-import fs from "fs"
-import path from "path"
+import { kv } from "@vercel/kv"
 
 interface EmailRecord {
   email: string
@@ -7,55 +6,47 @@ interface EmailRecord {
   createdAt: string
 }
 
-const DATA_FILE = path.join(process.cwd(), "data", "emails.json")
-
-function ensureDataFile() {
-  const dir = path.dirname(DATA_FILE)
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true })
-  }
-  if (!fs.existsSync(DATA_FILE)) {
-    fs.writeFileSync(DATA_FILE, "[]", "utf-8")
-  }
-}
-
-function readEmails(): EmailRecord[] {
-  ensureDataFile()
-  try {
-    const raw = fs.readFileSync(DATA_FILE, "utf-8")
-    return JSON.parse(raw)
-  } catch {
-    return []
-  }
-}
-
-function writeEmails(emails: EmailRecord[]) {
-  ensureDataFile()
-  fs.writeFileSync(DATA_FILE, JSON.stringify(emails, null, 2), "utf-8")
-}
-
 export async function saveEmail(email: string, source: string): Promise<boolean> {
-  const emails = readEmails()
-
-  // 去重：同一邮箱不重复存储
-  if (emails.some((e) => e.email === email)) {
-    return true
-  }
-
-  emails.unshift({
+  const record: EmailRecord = {
     email,
     source,
     createdAt: new Date().toISOString(),
-  })
+  }
 
-  writeEmails(emails)
+  // 去重
+  const exists = await kv.sismember("emails:set", email)
+  if (exists) return true
+
+  const key = `email:${Date.now()}`
+  await kv.set(key, JSON.stringify(record))
+  await kv.sadd("emails:keys", key)
+  await kv.sadd("emails:set", email)
+
   return true
 }
 
 export async function getAllEmails(): Promise<EmailRecord[]> {
-  return readEmails()
+  const keys = (await kv.smembers("emails:keys")) as string[]
+  if (!keys || keys.length === 0) return []
+
+  const emails: EmailRecord[] = []
+  for (const key of keys) {
+    const value = (await kv.get(key)) as string | null
+    if (value) {
+      try {
+        const record = typeof value === "string" ? JSON.parse(value) : value
+        emails.push(record as EmailRecord)
+      } catch {
+        // skip
+      }
+    }
+  }
+
+  return emails.sort(
+    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  )
 }
 
 export async function getEmailCount(): Promise<number> {
-  return readEmails().length
+  return (await kv.scard("emails:set")) ?? 0
 }
