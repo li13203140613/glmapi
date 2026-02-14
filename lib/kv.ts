@@ -1,52 +1,50 @@
-import { kv } from "@vercel/kv"
+import { neon } from "@neondatabase/serverless"
 
-interface EmailRecord {
-  email: string
-  source: string
-  createdAt: string
+function getSQL() {
+  return neon(process.env.DATABASE_URL!)
+}
+
+// 首次调用时自动建表
+let tableCreated = false
+async function ensureTable() {
+  if (tableCreated) return
+  const sql = getSQL()
+  await sql`
+    CREATE TABLE IF NOT EXISTS emails (
+      id SERIAL PRIMARY KEY,
+      email TEXT UNIQUE NOT NULL,
+      source TEXT DEFAULT 'unknown',
+      created_at TIMESTAMPTZ DEFAULT NOW()
+    )
+  `
+  tableCreated = true
 }
 
 export async function saveEmail(email: string, source: string): Promise<boolean> {
-  const record: EmailRecord = {
-    email,
-    source,
-    createdAt: new Date().toISOString(),
-  }
-
-  // 去重
-  const exists = await kv.sismember("emails:set", email)
-  if (exists) return true
-
-  const key = `email:${Date.now()}`
-  await kv.set(key, JSON.stringify(record))
-  await kv.sadd("emails:keys", key)
-  await kv.sadd("emails:set", email)
-
+  await ensureTable()
+  const sql = getSQL()
+  await sql`
+    INSERT INTO emails (email, source)
+    VALUES (${email}, ${source})
+    ON CONFLICT (email) DO NOTHING
+  `
   return true
 }
 
-export async function getAllEmails(): Promise<EmailRecord[]> {
-  const keys = (await kv.smembers("emails:keys")) as string[]
-  if (!keys || keys.length === 0) return []
-
-  const emails: EmailRecord[] = []
-  for (const key of keys) {
-    const value = (await kv.get(key)) as string | null
-    if (value) {
-      try {
-        const record = typeof value === "string" ? JSON.parse(value) : value
-        emails.push(record as EmailRecord)
-      } catch {
-        // skip
-      }
-    }
-  }
-
-  return emails.sort(
-    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-  )
+export async function getAllEmails() {
+  await ensureTable()
+  const sql = getSQL()
+  const rows = await sql`
+    SELECT email, source, created_at as "createdAt"
+    FROM emails
+    ORDER BY created_at DESC
+  `
+  return rows
 }
 
 export async function getEmailCount(): Promise<number> {
-  return (await kv.scard("emails:set")) ?? 0
+  await ensureTable()
+  const sql = getSQL()
+  const rows = await sql`SELECT COUNT(*) as count FROM emails`
+  return Number(rows[0].count)
 }
