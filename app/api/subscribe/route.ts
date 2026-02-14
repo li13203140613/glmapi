@@ -15,8 +15,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Save email to KV store
-    await saveEmail(email, source || "unknown");
+    // 自动获取网站域名
+    const host = request.headers.get("host") || "unknown";
+    const site = host.replace(/:\d+$/, ""); // 去掉端口号
+
+    await saveEmail(email, source || "unknown", site);
 
     return NextResponse.json(
       { success: true, message: "订阅成功" },

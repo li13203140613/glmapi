@@ -6,6 +6,7 @@ interface Email {
   id: number;
   email: string;
   source: string;
+  site: string;
   createdAt: string;
 }
 
@@ -175,7 +176,10 @@ export default function AdminPage() {
                     邮箱地址
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    来源
+                    页面来源
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    网站
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     订阅时间
@@ -186,7 +190,7 @@ export default function AdminPage() {
                 {emails.length === 0 ? (
                   <tr>
                     <td
-                      colSpan={4}
+                      colSpan={5}
                       className="px-6 py-12 text-center text-gray-500"
                     >
                       暂无订阅数据
@@ -204,6 +208,11 @@ export default function AdminPage() {
                       <td className="px-6 py-4 whitespace-nowrap">
                         <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
                           {email.source}
+                        </span>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                          {email.site}
                         </span>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
