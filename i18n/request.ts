@@ -11,12 +11,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale,
     messages: {
       ...(await import(`../messages/${locale}/common.json`)).default,
-      ...(await import(`../messages/${locale}/homepage.json`)).default,
-      ...(await import(`../messages/${locale}/pricing.json`)).default,
-      ...(await import(`../messages/${locale}/docs.json`)).default,
-      ...(await import(`../messages/${locale}/docs-detail.json`)).default,
-      ...(await import(`../messages/${locale}/landing.json`)).default,
-      ...(await import(`../messages/${locale}/metadata.json`)).default,
+      homepage: (await import(`../messages/${locale}/homepage.json`)).default,
+      pricing: (await import(`../messages/${locale}/pricing.json`)).default,
+      docs: (await import(`../messages/${locale}/docs.json`)).default,
+      docsDetail: (await import(`../messages/${locale}/docs-detail.json`)).default,
+      landing: (await import(`../messages/${locale}/landing.json`)).default,
+      metadata: (await import(`../messages/${locale}/metadata.json`)).default,
     },
   };
 });

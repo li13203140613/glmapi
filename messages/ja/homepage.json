@@ -2,8 +2,7 @@
   "hero": {
     "title": "GLM APIプロキシサービス",
     "subtitle": "公式価格の40% - 安定・信頼",
-    "description": "Zhipu AIの全機能にアクセス - GLM-4.7テキスト生成、GLM-4Vマルチモーダル理解、CogView画像生成、CogVideoX動画生成、GLM-4-Voiceなど - {pricingLink}のわずか40%で。安定・高速、全エンドポイント完全互換。",
-    "pricingLinkText": "公式料金",
+    "description": "Zhipu AIの全機能にアクセス - GLM-4.7テキスト生成、GLM-4Vマルチモーダル理解、CogView画像生成、CogVideoX動画生成、GLM-4-Voiceなど - <pricingLink>公式料金</pricingLink>のわずか40%で。安定・高速、全エンドポイント完全互換。",
     "emailHint": "メールアドレスをお知らせください。72時間以内にご連絡いたします"
   },
   "features": {

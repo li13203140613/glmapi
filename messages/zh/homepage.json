@@ -2,8 +2,7 @@
   "hero": {
     "title": "GLM API 代理服务",
     "subtitle": "官方价格的 40% - 稳定可靠",
-    "description": "以仅需{pricingLink}的 40% 的价格，访问智谱 AI 全套能力——GLM-4.7 文本生成、GLM-4V 多模态理解、CogView 图像生成、CogVideoX 视频生成、GLM-4-Voice 等。稳定、快速，完全兼容所有端点。",
-    "pricingLinkText": "官方价格",
+    "description": "以仅需<pricingLink>官方价格</pricingLink>的 40% 的价格，访问智谱 AI 全套能力——GLM-4.7 文本生成、GLM-4V 多模态理解、CogView 图像生成、CogVideoX 视频生成、GLM-4-Voice 等。稳定、快速，完全兼容所有端点。",
     "emailHint": "留下您的邮箱，我们将在 72 小时内与您联系"
   },
   "features": {

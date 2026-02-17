@@ -2,8 +2,7 @@
   "hero": {
     "title": "GLM API Proxy-Dienst",
     "subtitle": "Offizieller Preis zu 40% - Stabil & Zuverlässig",
-    "description": "Greifen Sie auf das gesamte Angebot von Zhipu AI zu - GLM-4.7 Textgenerierung, GLM-4V multimodale Bilderkennung, CogView Bildgenerierung, CogVideoX Videogenerierung, GLM-4-Voice und mehr - zu nur 40% des {pricingLink}. Stabil, schnell und vollständig kompatibel mit allen Endpunkten.",
-    "pricingLinkText": "offiziellen Preises",
+    "description": "Greifen Sie auf das gesamte Angebot von Zhipu AI zu - GLM-4.7 Textgenerierung, GLM-4V multimodale Bilderkennung, CogView Bildgenerierung, CogVideoX Videogenerierung, GLM-4-Voice und mehr - zu nur 40% des <pricingLink>offiziellen Preises</pricingLink>. Stabil, schnell und vollständig kompatibel mit allen Endpunkten.",
     "emailHint": "Hinterlassen Sie Ihre E-Mail, wir kontaktieren Sie innerhalb von 72 Stunden"
   },
   "features": {
